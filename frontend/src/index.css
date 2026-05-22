@@ -1,0 +1,149 @@
+/* ── DESIGN SYSTEM & RESET (HIGH-END MINIMALIST) ── */
+:root {
+  /* Minimalist Monochromatic Palette */
+  --bg-main: #f9fafb;
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f3f4f6;
+  
+  --primary: #111827;         /* Deep charcoal / almost black */
+  --primary-muted: #4b5563;   /* Slate gray */
+  --primary-light: #9ca3af;   /* Light gray */
+  
+  --accent: #0f172a;          /* Sleek black/slate for accents */
+  --accent-hover: #1f2937;
+  --accent-light: #f3f4f6;
+  --accent-border: #e5e7eb;
+  
+  --border: #e5e7eb;          /* Extremely subtle borders */
+  --border-strong: #d1d5db;
+  --border-focus: #111827;
+  
+  /* Status Colors */
+  --status-active: #059669;
+  --status-active-bg: #ecfdf5;
+  --status-pending: #d97706;
+  --status-pending-bg: #fffbeb;
+  --status-expired: #dc2626;
+  --status-expired-bg: #fef2f2;
+  --status-won: #0891b2;
+  --status-won-bg: #ecfeff;
+  --status-lost: #ea580c;
+  --status-lost-bg: #fff7ed;
+
+  /* Typography */
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  
+  /* Layout Metrics */
+  --header-h: 64px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  
+  /* Premium Apple-Style Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.04);
+  --shadow-float: 0 24px 48px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.04);
+  
+  /* Controlled Frosted Glass */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-blur: blur(24px);
+  --glass-border: rgba(255, 255, 255, 0.9);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.06) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(236, 72, 153, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.06) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: var(--primary);
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: scale(0.98) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ── UTILITY STYLES ── */
+.shimmer {
+  background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-light);
+}
+
+/* ── LAYOUT ── */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-top: calc(var(--header-h) + 24px);
+  padding: 0 40px;
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 40px;
+  animation: fadeIn 0.4s ease-out;
+}

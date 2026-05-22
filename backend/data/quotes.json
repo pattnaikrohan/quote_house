@@ -1,0 +1,3087 @@
+[
+  {
+    "id": 55,
+    "quoteNo": "QT-2025-01055",
+    "customer": "Toll Ipec",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Noah Campbell",
+    "quoteDate": "2025-05-28",
+    "effectiveDate": "2025-06-02",
+    "expiryDate": "2025-10-27",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01055_toll.docx",
+        "url": "/api/quotes/files/QT-2025-01055_toll.docx"
+      }
+    ],
+    "name": "QT-2025-01055_toll.docx"
+  },
+  {
+    "id": 11,
+    "quoteNo": "QT-2025-01011",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Emma Thompson",
+    "quoteDate": "2025-05-19",
+    "effectiveDate": "2025-05-23",
+    "expiryDate": "2025-11-05",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01011_target.docx",
+        "url": "/api/quotes/files/QT-2025-01011_target.docx"
+      }
+    ],
+    "name": "QT-2025-01011_target.docx"
+  },
+  {
+    "id": 94,
+    "quoteNo": "QT-2025-01094",
+    "customer": "Aldi Australia",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Noah Campbell",
+    "quoteDate": "2025-05-18",
+    "effectiveDate": "2025-05-24",
+    "expiryDate": "2025-09-11",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Technology",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01094_aldi.pdf",
+        "url": "/api/quotes/files/QT-2025-01094_aldi.pdf"
+      }
+    ],
+    "name": "QT-2025-01094_aldi.pdf"
+  },
+  {
+    "id": 96,
+    "quoteNo": "QT-2025-01096",
+    "customer": "Santos Ltd",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Daniel Park",
+    "quoteDate": "2025-05-12",
+    "effectiveDate": "2025-05-17",
+    "expiryDate": "2025-06-30",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Technology",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01096_santos.pdf",
+        "url": "/api/quotes/files/QT-2025-01096_santos.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01096_santos.xlsx",
+        "url": "/api/quotes/files/QT-2025-01096_santos.xlsx"
+      }
+    ],
+    "name": "QT-2025-01096_santos.pdf"
+  },
+  {
+    "id": 104,
+    "quoteNo": "QT-2025-01104",
+    "customer": "Metcash Ltd",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Olivia Chen",
+    "quoteDate": "2025-05-12",
+    "effectiveDate": "2025-05-16",
+    "expiryDate": "2025-06-18",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Retail",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01104_metcash.pdf",
+        "url": "/api/quotes/files/QT-2025-01104_metcash.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01104_metcash.xlsx",
+        "url": "/api/quotes/files/QT-2025-01104_metcash.xlsx"
+      }
+    ],
+    "name": "QT-2025-01104_metcash.pdf"
+  },
+  {
+    "id": 112,
+    "quoteNo": "QT-2025-01112",
+    "customer": "Viva Energy",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-05-09",
+    "effectiveDate": "2025-05-16",
+    "expiryDate": "2025-07-13",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Other",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01112_viva.pdf",
+        "url": "/api/quotes/files/QT-2025-01112_viva.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01112_viva.xlsx",
+        "url": "/api/quotes/files/QT-2025-01112_viva.xlsx"
+      }
+    ],
+    "name": "QT-2025-01112_viva.pdf"
+  },
+  {
+    "id": 58,
+    "quoteNo": "QT-2025-01058",
+    "customer": "David Jones",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Sarah Williams",
+    "quoteDate": "2025-04-21",
+    "effectiveDate": "2025-04-29",
+    "expiryDate": "2025-06-15",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Automotive",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01058_david.pdf",
+        "url": "/api/quotes/files/QT-2025-01058_david.pdf"
+      }
+    ],
+    "name": "QT-2025-01058_david.pdf"
+  },
+  {
+    "id": 63,
+    "quoteNo": "QT-2025-01063",
+    "customer": "Australia Post",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Liam Foster",
+    "quoteDate": "2025-04-06",
+    "effectiveDate": "2025-04-11",
+    "expiryDate": "2025-08-07",
+    "direction": "Import",
+    "mode": "Sea",
+    "vertical": "Mining",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01063_australia.pdf",
+        "url": "/api/quotes/files/QT-2025-01063_australia.pdf"
+      }
+    ],
+    "name": "QT-2025-01063_australia.pdf"
+  },
+  {
+    "id": 93,
+    "quoteNo": "QT-2025-01093",
+    "customer": "Aldi Australia",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Daniel Park",
+    "quoteDate": "2025-03-31",
+    "effectiveDate": "2025-04-02",
+    "expiryDate": "2025-06-25",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Agriculture",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01093_aldi.xlsx",
+        "url": "/api/quotes/files/QT-2025-01093_aldi.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01093_aldi.docx",
+        "url": "/api/quotes/files/QT-2025-01093_aldi.docx"
+      }
+    ],
+    "name": "QT-2025-01093_aldi.xlsx"
+  },
+  {
+    "id": 47,
+    "quoteNo": "QT-2025-01047",
+    "customer": "JB Hi-Fi",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Ava Martinez",
+    "quoteDate": "2025-03-25",
+    "effectiveDate": "2025-03-27",
+    "expiryDate": "2025-06-24",
+    "direction": "Export",
+    "mode": "Multi",
+    "vertical": "Automotive",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01047_jb.xlsx",
+        "url": "/api/quotes/files/QT-2025-01047_jb.xlsx"
+      }
+    ],
+    "name": "QT-2025-01047_jb.xlsx"
+  },
+  {
+    "id": 92,
+    "quoteNo": "QT-2025-01092",
+    "customer": "Myer Holdings",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Noah Campbell",
+    "quoteDate": "2025-03-25",
+    "effectiveDate": "2025-04-02",
+    "expiryDate": "2025-07-25",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Other",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01092_myer.pdf",
+        "url": "/api/quotes/files/QT-2025-01092_myer.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01092_myer.docx",
+        "url": "/api/quotes/files/QT-2025-01092_myer.docx"
+      }
+    ],
+    "name": "QT-2025-01092_myer.pdf"
+  },
+  {
+    "id": 78,
+    "quoteNo": "QT-2025-01078",
+    "customer": "Woolworths Group",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-03-21",
+    "effectiveDate": "2025-03-28",
+    "expiryDate": "2025-09-15",
+    "direction": "Export",
+    "mode": "Road",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01078_woolworths.docx",
+        "url": "/api/quotes/files/QT-2025-01078_woolworths.docx"
+      }
+    ],
+    "name": "QT-2025-01078_woolworths.docx"
+  },
+  {
+    "id": 98,
+    "quoteNo": "QT-2025-01098",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Olivia Chen",
+    "quoteDate": "2025-03-21",
+    "effectiveDate": "2025-03-22",
+    "expiryDate": "2025-09-01",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01098_david.xlsx",
+        "url": "/api/quotes/files/QT-2025-01098_david.xlsx"
+      }
+    ],
+    "name": "QT-2025-01098_david.xlsx"
+  },
+  {
+    "id": 21,
+    "quoteNo": "QT-2025-01021",
+    "customer": "Myer Holdings",
+    "custType": "New",
+    "branch": "Adelaide",
+    "rep": "Noah Campbell",
+    "quoteDate": "2025-03-20",
+    "effectiveDate": "2025-03-21",
+    "expiryDate": "2025-08-07",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "Pharma",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01021_myer.xlsx",
+        "url": "/api/quotes/files/QT-2025-01021_myer.xlsx"
+      }
+    ],
+    "name": "QT-2025-01021_myer.xlsx"
+  },
+  {
+    "id": 20,
+    "quoteNo": "QT-2025-01020",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Ava Martinez",
+    "quoteDate": "2025-03-15",
+    "effectiveDate": "2025-03-20",
+    "expiryDate": "2025-06-17",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "Agriculture",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01020_target.pdf",
+        "url": "/api/quotes/files/QT-2025-01020_target.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01020_target.xlsx",
+        "url": "/api/quotes/files/QT-2025-01020_target.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01020_target.docx",
+        "url": "/api/quotes/files/QT-2025-01020_target.docx"
+      }
+    ],
+    "name": "QT-2025-01020_target.pdf"
+  },
+  {
+    "id": 44,
+    "quoteNo": "QT-2025-01044",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-03-14",
+    "effectiveDate": "2025-03-22",
+    "expiryDate": "2025-04-24",
+    "direction": "Export",
+    "mode": "Multi",
+    "vertical": "Pharma",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01044_rio.docx",
+        "url": "/api/quotes/files/QT-2025-01044_rio.docx"
+      }
+    ],
+    "name": "QT-2025-01044_rio.docx"
+  },
+  {
+    "id": 35,
+    "quoteNo": "QT-2025-01035",
+    "customer": "Aldi Australia",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Emma Thompson",
+    "quoteDate": "2025-03-13",
+    "effectiveDate": "2025-03-15",
+    "expiryDate": "2025-05-06",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Automotive",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01035_aldi.xlsx",
+        "url": "/api/quotes/files/QT-2025-01035_aldi.xlsx"
+      }
+    ],
+    "name": "QT-2025-01035_aldi.xlsx"
+  },
+  {
+    "id": 115,
+    "quoteNo": "QT-2025-01115",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Noah Campbell",
+    "quoteDate": "2025-03-13",
+    "effectiveDate": "2025-03-21",
+    "expiryDate": "2025-08-22",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "FMCG",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01115_rio.pdf",
+        "url": "/api/quotes/files/QT-2025-01115_rio.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01115_rio.docx",
+        "url": "/api/quotes/files/QT-2025-01115_rio.docx"
+      }
+    ],
+    "name": "QT-2025-01115_rio.pdf"
+  },
+  {
+    "id": 4,
+    "quoteNo": "QT-2025-01004",
+    "customer": "JB Hi-Fi",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Ava Martinez",
+    "quoteDate": "2025-02-28",
+    "effectiveDate": "2025-03-10",
+    "expiryDate": "2025-07-26",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "FMCG",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01004_jb.xlsx",
+        "url": "/api/quotes/files/QT-2025-01004_jb.xlsx"
+      }
+    ],
+    "name": "QT-2025-01004_jb.xlsx"
+  },
+  {
+    "id": 62,
+    "quoteNo": "QT-2025-01062",
+    "customer": "ANZ Banking",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Ava Martinez",
+    "quoteDate": "2025-02-18",
+    "effectiveDate": "2025-02-26",
+    "expiryDate": "2025-05-10",
+    "direction": "Import",
+    "mode": "Sea",
+    "vertical": "Other",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01062_anz.xlsx",
+        "url": "/api/quotes/files/QT-2025-01062_anz.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01062_anz.docx",
+        "url": "/api/quotes/files/QT-2025-01062_anz.docx"
+      }
+    ],
+    "name": "QT-2025-01062_anz.xlsx"
+  },
+  {
+    "id": 32,
+    "quoteNo": "QT-2025-01032",
+    "customer": "BHP Billiton",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Daniel Park",
+    "quoteDate": "2025-02-17",
+    "effectiveDate": "2025-02-20",
+    "expiryDate": "2025-08-01",
+    "direction": "Cross-trade",
+    "mode": "Multi",
+    "vertical": "FMCG",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01032_bhp.xlsx",
+        "url": "/api/quotes/files/QT-2025-01032_bhp.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01032_bhp.docx",
+        "url": "/api/quotes/files/QT-2025-01032_bhp.docx"
+      }
+    ],
+    "name": "QT-2025-01032_bhp.xlsx"
+  },
+  {
+    "id": 107,
+    "quoteNo": "QT-2025-01107",
+    "customer": "Toll Ipec",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-02-01",
+    "effectiveDate": "2025-02-10",
+    "expiryDate": "2025-04-07",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Automotive",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01107_toll.pdf",
+        "url": "/api/quotes/files/QT-2025-01107_toll.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01107_toll.xlsx",
+        "url": "/api/quotes/files/QT-2025-01107_toll.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01107_toll.docx",
+        "url": "/api/quotes/files/QT-2025-01107_toll.docx"
+      }
+    ],
+    "name": "QT-2025-01107_toll.pdf"
+  },
+  {
+    "id": 85,
+    "quoteNo": "QT-2025-01085",
+    "customer": "Wesfarmers",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Emma Thompson",
+    "quoteDate": "2025-01-29",
+    "effectiveDate": "2025-02-06",
+    "expiryDate": "2025-04-07",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "Technology",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01085_wesfarmers.docx",
+        "url": "/api/quotes/files/QT-2025-01085_wesfarmers.docx"
+      }
+    ],
+    "name": "QT-2025-01085_wesfarmers.docx"
+  },
+  {
+    "id": 24,
+    "quoteNo": "QT-2025-01024",
+    "customer": "ANZ Banking",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Emma Thompson",
+    "quoteDate": "2025-01-26",
+    "effectiveDate": "2025-01-29",
+    "expiryDate": "2025-05-15",
+    "direction": "Domestic",
+    "mode": "Rail",
+    "vertical": "Agriculture",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01024_anz.pdf",
+        "url": "/api/quotes/files/QT-2025-01024_anz.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2025-01024_anz.xlsx",
+        "url": "/api/quotes/files/QT-2025-01024_anz.xlsx"
+      }
+    ],
+    "name": "QT-2025-01024_anz.pdf"
+  },
+  {
+    "id": 64,
+    "quoteNo": "QT-2025-01064",
+    "customer": "Qantas Freight",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Sarah Williams",
+    "quoteDate": "2025-01-24",
+    "effectiveDate": "2025-01-29",
+    "expiryDate": "2025-06-04",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01064_qantas.pdf",
+        "url": "/api/quotes/files/QT-2025-01064_qantas.pdf"
+      }
+    ],
+    "name": "QT-2025-01064_qantas.pdf"
+  },
+  {
+    "id": 103,
+    "quoteNo": "QT-2025-01103",
+    "customer": "Toll Ipec",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Sarah Williams",
+    "quoteDate": "2025-01-24",
+    "effectiveDate": "2025-01-25",
+    "expiryDate": "2025-05-31",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Automotive",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01103_toll.pdf",
+        "url": "/api/quotes/files/QT-2025-01103_toll.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01103_toll.docx",
+        "url": "/api/quotes/files/QT-2025-01103_toll.docx"
+      }
+    ],
+    "name": "QT-2025-01103_toll.pdf"
+  },
+  {
+    "id": 75,
+    "quoteNo": "QT-2025-01075",
+    "customer": "Endeavour Group",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Sarah Williams",
+    "quoteDate": "2025-01-22",
+    "effectiveDate": "2025-01-26",
+    "expiryDate": "2025-06-01",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Retail",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01075_endeavour.pdf",
+        "url": "/api/quotes/files/QT-2025-01075_endeavour.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01075_endeavour.docx",
+        "url": "/api/quotes/files/QT-2025-01075_endeavour.docx"
+      }
+    ],
+    "name": "QT-2025-01075_endeavour.pdf"
+  },
+  {
+    "id": 49,
+    "quoteNo": "QT-2025-01049",
+    "customer": "Endeavour Group",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "James Nguyen",
+    "quoteDate": "2025-01-19",
+    "effectiveDate": "2025-01-28",
+    "expiryDate": "2025-04-22",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Other",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01049_endeavour.docx",
+        "url": "/api/quotes/files/QT-2025-01049_endeavour.docx"
+      }
+    ],
+    "name": "QT-2025-01049_endeavour.docx"
+  },
+  {
+    "id": 97,
+    "quoteNo": "QT-2025-01097",
+    "customer": "Qantas Freight",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-01-17",
+    "effectiveDate": "2025-01-27",
+    "expiryDate": "2025-04-25",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "Automotive",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01097_qantas.docx",
+        "url": "/api/quotes/files/QT-2025-01097_qantas.docx"
+      }
+    ],
+    "name": "QT-2025-01097_qantas.docx"
+  },
+  {
+    "id": 71,
+    "quoteNo": "QT-2025-01071",
+    "customer": "Qantas Freight",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Liam Foster",
+    "quoteDate": "2025-01-16",
+    "effectiveDate": "2025-01-26",
+    "expiryDate": "2025-02-15",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Mining",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01071_qantas.docx",
+        "url": "/api/quotes/files/QT-2025-01071_qantas.docx"
+      }
+    ],
+    "name": "QT-2025-01071_qantas.docx"
+  },
+  {
+    "id": 50,
+    "quoteNo": "QT-2025-01050",
+    "customer": "Viva Energy",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Mason Turner",
+    "quoteDate": "2025-01-11",
+    "effectiveDate": "2025-01-14",
+    "expiryDate": "2025-04-19",
+    "direction": "Domestic",
+    "mode": "Sea",
+    "vertical": "Agriculture",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2025-01050_viva.pdf",
+        "url": "/api/quotes/files/QT-2025-01050_viva.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2025-01050_viva.docx",
+        "url": "/api/quotes/files/QT-2025-01050_viva.docx"
+      }
+    ],
+    "name": "QT-2025-01050_viva.pdf"
+  },
+  {
+    "id": 52,
+    "quoteNo": "QT-2025-01052",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Isabella Wright",
+    "quoteDate": "2025-01-10",
+    "effectiveDate": "2025-01-13",
+    "expiryDate": "2025-06-26",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2025-01052_target.docx",
+        "url": "/api/quotes/files/QT-2025-01052_target.docx"
+      }
+    ],
+    "name": "QT-2025-01052_target.docx"
+  },
+  {
+    "id": 33,
+    "quoteNo": "QT-2024-01033",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-12-29",
+    "effectiveDate": "2024-12-31",
+    "expiryDate": "2025-04-13",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "Agriculture",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01033_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01033_myer.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01033_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01033_myer.xlsx"
+      }
+    ],
+    "name": "QT-2024-01033_myer.pdf"
+  },
+  {
+    "id": 39,
+    "quoteNo": "QT-2024-01039",
+    "customer": "Aldi Australia",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-12-25",
+    "effectiveDate": "2024-12-26",
+    "expiryDate": "2025-04-25",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "FMCG",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01039_aldi.docx",
+        "url": "/api/quotes/files/QT-2024-01039_aldi.docx"
+      }
+    ],
+    "name": "QT-2024-01039_aldi.docx"
+  },
+  {
+    "id": 77,
+    "quoteNo": "QT-2024-01077",
+    "customer": "Endeavour Group",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-12-23",
+    "effectiveDate": "2024-12-29",
+    "expiryDate": "2025-02-25",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01077_endeavour.pdf",
+        "url": "/api/quotes/files/QT-2024-01077_endeavour.pdf"
+      }
+    ],
+    "name": "QT-2024-01077_endeavour.pdf"
+  },
+  {
+    "id": 8,
+    "quoteNo": "QT-2024-01008",
+    "customer": "Metcash Ltd",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-12-21",
+    "effectiveDate": "2024-12-24",
+    "expiryDate": "2025-06-15",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Agriculture",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01008_metcash.xlsx",
+        "url": "/api/quotes/files/QT-2024-01008_metcash.xlsx"
+      }
+    ],
+    "name": "QT-2024-01008_metcash.xlsx"
+  },
+  {
+    "id": 48,
+    "quoteNo": "QT-2024-01048",
+    "customer": "Aldi Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-12-19",
+    "effectiveDate": "2024-12-29",
+    "expiryDate": "2025-03-22",
+    "direction": "Import",
+    "mode": "Air",
+    "vertical": "Automotive",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01048_aldi.xlsx",
+        "url": "/api/quotes/files/QT-2024-01048_aldi.xlsx"
+      }
+    ],
+    "name": "QT-2024-01048_aldi.xlsx"
+  },
+  {
+    "id": 43,
+    "quoteNo": "QT-2024-01043",
+    "customer": "Target Australia",
+    "custType": "New",
+    "branch": "Adelaide",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-12-15",
+    "effectiveDate": "2024-12-20",
+    "expiryDate": "2025-04-24",
+    "direction": "Domestic",
+    "mode": "Sea",
+    "vertical": "Automotive",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01043_target.xlsx",
+        "url": "/api/quotes/files/QT-2024-01043_target.xlsx"
+      }
+    ],
+    "name": "QT-2024-01043_target.xlsx"
+  },
+  {
+    "id": 7,
+    "quoteNo": "QT-2024-01007",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-12-11",
+    "effectiveDate": "2024-12-20",
+    "expiryDate": "2025-03-31",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01007_target.pdf",
+        "url": "/api/quotes/files/QT-2024-01007_target.pdf"
+      }
+    ],
+    "name": "QT-2024-01007_target.pdf"
+  },
+  {
+    "id": 54,
+    "quoteNo": "QT-2024-01054",
+    "customer": "Wesfarmers",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-11-30",
+    "effectiveDate": "2024-12-07",
+    "expiryDate": "2025-05-18",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01054_wesfarmers.pdf",
+        "url": "/api/quotes/files/QT-2024-01054_wesfarmers.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01054_wesfarmers.docx",
+        "url": "/api/quotes/files/QT-2024-01054_wesfarmers.docx"
+      }
+    ],
+    "name": "QT-2024-01054_wesfarmers.pdf"
+  },
+  {
+    "id": 23,
+    "quoteNo": "QT-2024-01023",
+    "customer": "Viva Energy",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Noah Campbell",
+    "quoteDate": "2024-11-25",
+    "effectiveDate": "2024-12-01",
+    "expiryDate": "2025-05-08",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01023_viva.pdf",
+        "url": "/api/quotes/files/QT-2024-01023_viva.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01023_viva.docx",
+        "url": "/api/quotes/files/QT-2024-01023_viva.docx"
+      }
+    ],
+    "name": "QT-2024-01023_viva.pdf"
+  },
+  {
+    "id": 3,
+    "quoteNo": "QT-2024-01003",
+    "customer": "Metcash Ltd",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-11-24",
+    "effectiveDate": "2024-12-03",
+    "expiryDate": "2024-12-31",
+    "direction": "Import",
+    "mode": "Multi",
+    "vertical": "Mining",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01003_metcash.docx",
+        "url": "/api/quotes/files/QT-2024-01003_metcash.docx"
+      }
+    ],
+    "name": "QT-2024-01003_metcash.docx"
+  },
+  {
+    "id": 61,
+    "quoteNo": "QT-2024-01061",
+    "customer": "Australia Post",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-11-22",
+    "effectiveDate": "2024-11-30",
+    "expiryDate": "2025-05-17",
+    "direction": "Cross-trade",
+    "mode": "Multi",
+    "vertical": "Agriculture",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01061_australia.pdf",
+        "url": "/api/quotes/files/QT-2024-01061_australia.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01061_australia.xlsx",
+        "url": "/api/quotes/files/QT-2024-01061_australia.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01061_australia.docx",
+        "url": "/api/quotes/files/QT-2024-01061_australia.docx"
+      }
+    ],
+    "name": "QT-2024-01061_australia.pdf"
+  },
+  {
+    "id": 51,
+    "quoteNo": "QT-2024-01051",
+    "customer": "Kmart Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-11-14",
+    "effectiveDate": "2024-11-21",
+    "expiryDate": "2025-01-30",
+    "direction": "Domestic",
+    "mode": "Air",
+    "vertical": "Automotive",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01051_kmart.docx",
+        "url": "/api/quotes/files/QT-2024-01051_kmart.docx"
+      }
+    ],
+    "name": "QT-2024-01051_kmart.docx"
+  },
+  {
+    "id": 26,
+    "quoteNo": "QT-2024-01026",
+    "customer": "Metcash Ltd",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-11-11",
+    "effectiveDate": "2024-11-20",
+    "expiryDate": "2025-03-05",
+    "direction": "Domestic",
+    "mode": "Air",
+    "vertical": "FMCG",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01026_metcash.docx",
+        "url": "/api/quotes/files/QT-2024-01026_metcash.docx"
+      }
+    ],
+    "name": "QT-2024-01026_metcash.docx"
+  },
+  {
+    "id": 57,
+    "quoteNo": "QT-2024-01057",
+    "customer": "Viva Energy",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-11-07",
+    "effectiveDate": "2024-11-11",
+    "expiryDate": "2025-01-08",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01057_viva.docx",
+        "url": "/api/quotes/files/QT-2024-01057_viva.docx"
+      }
+    ],
+    "name": "QT-2024-01057_viva.docx"
+  },
+  {
+    "id": 116,
+    "quoteNo": "QT-2024-01116",
+    "customer": "Metcash Ltd",
+    "custType": "New",
+    "branch": "Adelaide",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-11-07",
+    "effectiveDate": "2024-11-11",
+    "expiryDate": "2025-02-12",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Retail",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01116_metcash.docx",
+        "url": "/api/quotes/files/QT-2024-01116_metcash.docx"
+      }
+    ],
+    "name": "QT-2024-01116_metcash.docx"
+  },
+  {
+    "id": 120,
+    "quoteNo": "QT-2024-01120",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-10-21",
+    "effectiveDate": "2024-10-29",
+    "expiryDate": "2024-12-01",
+    "direction": "Cross-trade",
+    "mode": "Multi",
+    "vertical": "Retail",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01120_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01120_myer.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01120_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01120_myer.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01120_myer.docx",
+        "url": "/api/quotes/files/QT-2024-01120_myer.docx"
+      }
+    ],
+    "name": "QT-2024-01120_myer.pdf"
+  },
+  {
+    "id": 46,
+    "quoteNo": "QT-2024-01046",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Noah Campbell",
+    "quoteDate": "2024-10-20",
+    "effectiveDate": "2024-10-24",
+    "expiryDate": "2025-01-26",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "FMCG",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01046_target.docx",
+        "url": "/api/quotes/files/QT-2024-01046_target.docx"
+      }
+    ],
+    "name": "QT-2024-01046_target.docx"
+  },
+  {
+    "id": 118,
+    "quoteNo": "QT-2024-01118",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-10-09",
+    "effectiveDate": "2024-10-16",
+    "expiryDate": "2025-02-17",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Other",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01118_david.xlsx",
+        "url": "/api/quotes/files/QT-2024-01118_david.xlsx"
+      }
+    ],
+    "name": "QT-2024-01118_david.xlsx"
+  },
+  {
+    "id": 12,
+    "quoteNo": "QT-2024-01012",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-09-23",
+    "effectiveDate": "2024-09-24",
+    "expiryDate": "2025-03-19",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01012_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01012_myer.pdf"
+      }
+    ],
+    "name": "QT-2024-01012_myer.pdf"
+  },
+  {
+    "id": 31,
+    "quoteNo": "QT-2024-01031",
+    "customer": "BHP Billiton",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-09-23",
+    "effectiveDate": "2024-09-29",
+    "expiryDate": "2025-03-10",
+    "direction": "Import",
+    "mode": "Sea",
+    "vertical": "Retail",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01031_bhp.pdf",
+        "url": "/api/quotes/files/QT-2024-01031_bhp.pdf"
+      }
+    ],
+    "name": "QT-2024-01031_bhp.pdf"
+  },
+  {
+    "id": 109,
+    "quoteNo": "QT-2024-01109",
+    "customer": "David Jones",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-09-18",
+    "effectiveDate": "2024-09-27",
+    "expiryDate": "2025-02-11",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Mining",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01109_david.docx",
+        "url": "/api/quotes/files/QT-2024-01109_david.docx"
+      }
+    ],
+    "name": "QT-2024-01109_david.docx"
+  },
+  {
+    "id": 27,
+    "quoteNo": "QT-2024-01027",
+    "customer": "David Jones",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-09-15",
+    "effectiveDate": "2024-09-21",
+    "expiryDate": "2024-10-19",
+    "direction": "Export",
+    "mode": "Road",
+    "vertical": "Mining",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01027_david.docx",
+        "url": "/api/quotes/files/QT-2024-01027_david.docx"
+      }
+    ],
+    "name": "QT-2024-01027_david.docx"
+  },
+  {
+    "id": 60,
+    "quoteNo": "QT-2024-01060",
+    "customer": "JB Hi-Fi",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-09-15",
+    "effectiveDate": "2024-09-22",
+    "expiryDate": "2025-02-28",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Technology",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01060_jb.xlsx",
+        "url": "/api/quotes/files/QT-2024-01060_jb.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01060_jb.docx",
+        "url": "/api/quotes/files/QT-2024-01060_jb.docx"
+      }
+    ],
+    "name": "QT-2024-01060_jb.xlsx"
+  },
+  {
+    "id": 100,
+    "quoteNo": "QT-2024-01100",
+    "customer": "Kmart Australia",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-09-15",
+    "effectiveDate": "2024-09-16",
+    "expiryDate": "2024-10-21",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Retail",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01100_kmart.pdf",
+        "url": "/api/quotes/files/QT-2024-01100_kmart.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01100_kmart.xlsx",
+        "url": "/api/quotes/files/QT-2024-01100_kmart.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01100_kmart.docx",
+        "url": "/api/quotes/files/QT-2024-01100_kmart.docx"
+      }
+    ],
+    "name": "QT-2024-01100_kmart.pdf"
+  },
+  {
+    "id": 105,
+    "quoteNo": "QT-2024-01105",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-09-05",
+    "effectiveDate": "2024-09-12",
+    "expiryDate": "2024-10-18",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "Agriculture",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01105_rio.pdf",
+        "url": "/api/quotes/files/QT-2024-01105_rio.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01105_rio.xlsx",
+        "url": "/api/quotes/files/QT-2024-01105_rio.xlsx"
+      }
+    ],
+    "name": "QT-2024-01105_rio.pdf"
+  },
+  {
+    "id": 117,
+    "quoteNo": "QT-2024-01117",
+    "customer": "Woolworths Group",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-08-25",
+    "effectiveDate": "2024-08-30",
+    "expiryDate": "2024-10-18",
+    "direction": "Export",
+    "mode": "Road",
+    "vertical": "Pharma",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01117_woolworths.pdf",
+        "url": "/api/quotes/files/QT-2024-01117_woolworths.pdf"
+      }
+    ],
+    "name": "QT-2024-01117_woolworths.pdf"
+  },
+  {
+    "id": 90,
+    "quoteNo": "QT-2024-01090",
+    "customer": "Wesfarmers",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-08-22",
+    "effectiveDate": "2024-09-01",
+    "expiryDate": "2024-11-23",
+    "direction": "Import",
+    "mode": "Multi",
+    "vertical": "FMCG",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01090_wesfarmers.pdf",
+        "url": "/api/quotes/files/QT-2024-01090_wesfarmers.pdf"
+      }
+    ],
+    "name": "QT-2024-01090_wesfarmers.pdf"
+  },
+  {
+    "id": 2,
+    "quoteNo": "QT-2024-01002",
+    "customer": "Santos Ltd",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-08-18",
+    "effectiveDate": "2024-08-26",
+    "expiryDate": "2024-11-16",
+    "direction": "Domestic",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01002_santos.pdf",
+        "url": "/api/quotes/files/QT-2024-01002_santos.pdf"
+      }
+    ],
+    "name": "QT-2024-01002_santos.pdf"
+  },
+  {
+    "id": 65,
+    "quoteNo": "QT-2024-01065",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-08-09",
+    "effectiveDate": "2024-08-19",
+    "expiryDate": "2024-12-23",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "Retail",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01065_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01065_myer.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01065_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01065_myer.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01065_myer.docx",
+        "url": "/api/quotes/files/QT-2024-01065_myer.docx"
+      }
+    ],
+    "name": "QT-2024-01065_myer.pdf"
+  },
+  {
+    "id": 22,
+    "quoteNo": "QT-2024-01022",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-08-06",
+    "effectiveDate": "2024-08-08",
+    "expiryDate": "2024-10-23",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Mining",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01022_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01022_myer.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01022_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01022_myer.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01022_myer.docx",
+        "url": "/api/quotes/files/QT-2024-01022_myer.docx"
+      }
+    ],
+    "name": "QT-2024-01022_myer.pdf"
+  },
+  {
+    "id": 25,
+    "quoteNo": "QT-2024-01025",
+    "customer": "Woolworths Group",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-08-02",
+    "effectiveDate": "2024-08-12",
+    "expiryDate": "2024-10-18",
+    "direction": "Import",
+    "mode": "Air",
+    "vertical": "Agriculture",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01025_woolworths.pdf",
+        "url": "/api/quotes/files/QT-2024-01025_woolworths.pdf"
+      }
+    ],
+    "name": "QT-2024-01025_woolworths.pdf"
+  },
+  {
+    "id": 70,
+    "quoteNo": "QT-2024-01070",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Noah Campbell",
+    "quoteDate": "2024-07-30",
+    "effectiveDate": "2024-08-02",
+    "expiryDate": "2024-11-19",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Other",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01070_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01070_myer.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01070_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01070_myer.xlsx"
+      }
+    ],
+    "name": "QT-2024-01070_myer.pdf"
+  },
+  {
+    "id": 111,
+    "quoteNo": "QT-2024-01111",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-07-20",
+    "effectiveDate": "2024-07-26",
+    "expiryDate": "2024-12-11",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Retail",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01111_rio.xlsx",
+        "url": "/api/quotes/files/QT-2024-01111_rio.xlsx"
+      }
+    ],
+    "name": "QT-2024-01111_rio.xlsx"
+  },
+  {
+    "id": 9,
+    "quoteNo": "QT-2024-01009",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-07-13",
+    "effectiveDate": "2024-07-19",
+    "expiryDate": "2024-11-26",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "FMCG",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01009_target.pdf",
+        "url": "/api/quotes/files/QT-2024-01009_target.pdf"
+      }
+    ],
+    "name": "QT-2024-01009_target.pdf"
+  },
+  {
+    "id": 38,
+    "quoteNo": "QT-2024-01038",
+    "customer": "Australia Post",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-06-30",
+    "effectiveDate": "2024-07-04",
+    "expiryDate": "2024-12-12",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01038_australia.docx",
+        "url": "/api/quotes/files/QT-2024-01038_australia.docx"
+      }
+    ],
+    "name": "QT-2024-01038_australia.docx"
+  },
+  {
+    "id": 10,
+    "quoteNo": "QT-2024-01010",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-06-29",
+    "effectiveDate": "2024-07-09",
+    "expiryDate": "2024-10-06",
+    "direction": "Import",
+    "mode": "Air",
+    "vertical": "Pharma",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01010_david.pdf",
+        "url": "/api/quotes/files/QT-2024-01010_david.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01010_david.xlsx",
+        "url": "/api/quotes/files/QT-2024-01010_david.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01010_david.docx",
+        "url": "/api/quotes/files/QT-2024-01010_david.docx"
+      }
+    ],
+    "name": "QT-2024-01010_david.pdf"
+  },
+  {
+    "id": 88,
+    "quoteNo": "QT-2024-01088",
+    "customer": "Qantas Freight",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-06-29",
+    "effectiveDate": "2024-06-30",
+    "expiryDate": "2024-11-10",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01088_qantas.pdf",
+        "url": "/api/quotes/files/QT-2024-01088_qantas.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01088_qantas.xlsx",
+        "url": "/api/quotes/files/QT-2024-01088_qantas.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01088_qantas.docx",
+        "url": "/api/quotes/files/QT-2024-01088_qantas.docx"
+      }
+    ],
+    "name": "QT-2024-01088_qantas.pdf"
+  },
+  {
+    "id": 14,
+    "quoteNo": "QT-2024-01014",
+    "customer": "Aldi Australia",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-06-27",
+    "effectiveDate": "2024-07-06",
+    "expiryDate": "2024-10-15",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Technology",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01014_aldi.xlsx",
+        "url": "/api/quotes/files/QT-2024-01014_aldi.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01014_aldi.docx",
+        "url": "/api/quotes/files/QT-2024-01014_aldi.docx"
+      }
+    ],
+    "name": "QT-2024-01014_aldi.xlsx"
+  },
+  {
+    "id": 5,
+    "quoteNo": "QT-2024-01005",
+    "customer": "Viva Energy",
+    "custType": "New",
+    "branch": "Adelaide",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-06-21",
+    "effectiveDate": "2024-06-24",
+    "expiryDate": "2024-11-12",
+    "direction": "Domestic",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01005_viva.xlsx",
+        "url": "/api/quotes/files/QT-2024-01005_viva.xlsx"
+      }
+    ],
+    "name": "QT-2024-01005_viva.xlsx"
+  },
+  {
+    "id": 76,
+    "quoteNo": "QT-2024-01076",
+    "customer": "Australia Post",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-06-16",
+    "effectiveDate": "2024-06-19",
+    "expiryDate": "2024-10-19",
+    "direction": "Export",
+    "mode": "Road",
+    "vertical": "FMCG",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01076_australia.pdf",
+        "url": "/api/quotes/files/QT-2024-01076_australia.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01076_australia.xlsx",
+        "url": "/api/quotes/files/QT-2024-01076_australia.xlsx"
+      }
+    ],
+    "name": "QT-2024-01076_australia.pdf"
+  },
+  {
+    "id": 113,
+    "quoteNo": "QT-2024-01113",
+    "customer": "ANZ Banking",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-06-08",
+    "effectiveDate": "2024-06-10",
+    "expiryDate": "2024-08-16",
+    "direction": "Domestic",
+    "mode": "Air",
+    "vertical": "Other",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01113_anz.xlsx",
+        "url": "/api/quotes/files/QT-2024-01113_anz.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01113_anz.docx",
+        "url": "/api/quotes/files/QT-2024-01113_anz.docx"
+      }
+    ],
+    "name": "QT-2024-01113_anz.xlsx"
+  },
+  {
+    "id": 29,
+    "quoteNo": "QT-2024-01029",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-06-05",
+    "effectiveDate": "2024-06-09",
+    "expiryDate": "2024-08-27",
+    "direction": "Import",
+    "mode": "Sea",
+    "vertical": "Other",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01029_target.xlsx",
+        "url": "/api/quotes/files/QT-2024-01029_target.xlsx"
+      }
+    ],
+    "name": "QT-2024-01029_target.xlsx"
+  },
+  {
+    "id": 30,
+    "quoteNo": "QT-2024-01030",
+    "customer": "Metcash Ltd",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-06-04",
+    "effectiveDate": "2024-06-13",
+    "expiryDate": "2024-10-13",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Pharma",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01030_metcash.xlsx",
+        "url": "/api/quotes/files/QT-2024-01030_metcash.xlsx"
+      }
+    ],
+    "name": "QT-2024-01030_metcash.xlsx"
+  },
+  {
+    "id": 79,
+    "quoteNo": "QT-2024-01079",
+    "customer": "ANZ Banking",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-06-02",
+    "effectiveDate": "2024-06-09",
+    "expiryDate": "2024-09-14",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Other",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01079_anz.pdf",
+        "url": "/api/quotes/files/QT-2024-01079_anz.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01079_anz.xlsx",
+        "url": "/api/quotes/files/QT-2024-01079_anz.xlsx"
+      }
+    ],
+    "name": "QT-2024-01079_anz.pdf"
+  },
+  {
+    "id": 83,
+    "quoteNo": "QT-2024-01083",
+    "customer": "Rio Tinto",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-06-01",
+    "effectiveDate": "2024-06-11",
+    "expiryDate": "2024-08-05",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Pharma",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01083_rio.xlsx",
+        "url": "/api/quotes/files/QT-2024-01083_rio.xlsx"
+      }
+    ],
+    "name": "QT-2024-01083_rio.xlsx"
+  },
+  {
+    "id": 81,
+    "quoteNo": "QT-2024-01081",
+    "customer": "Endeavour Group",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-05-24",
+    "effectiveDate": "2024-05-28",
+    "expiryDate": "2024-09-20",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "FMCG",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01081_endeavour.xlsx",
+        "url": "/api/quotes/files/QT-2024-01081_endeavour.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01081_endeavour.docx",
+        "url": "/api/quotes/files/QT-2024-01081_endeavour.docx"
+      }
+    ],
+    "name": "QT-2024-01081_endeavour.xlsx"
+  },
+  {
+    "id": 74,
+    "quoteNo": "QT-2024-01074",
+    "customer": "Coles Group",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-05-05",
+    "effectiveDate": "2024-05-07",
+    "expiryDate": "2024-07-07",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Technology",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01074_coles.pdf",
+        "url": "/api/quotes/files/QT-2024-01074_coles.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01074_coles.docx",
+        "url": "/api/quotes/files/QT-2024-01074_coles.docx"
+      }
+    ],
+    "name": "QT-2024-01074_coles.pdf"
+  },
+  {
+    "id": 72,
+    "quoteNo": "QT-2024-01072",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-04-27",
+    "effectiveDate": "2024-04-30",
+    "expiryDate": "2024-09-13",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "FMCG",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01072_david.pdf",
+        "url": "/api/quotes/files/QT-2024-01072_david.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01072_david.xlsx",
+        "url": "/api/quotes/files/QT-2024-01072_david.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01072_david.docx",
+        "url": "/api/quotes/files/QT-2024-01072_david.docx"
+      }
+    ],
+    "name": "QT-2024-01072_david.pdf"
+  },
+  {
+    "id": 119,
+    "quoteNo": "QT-2024-01119",
+    "customer": "Wesfarmers",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-04-26",
+    "effectiveDate": "2024-04-30",
+    "expiryDate": "2024-08-15",
+    "direction": "Import",
+    "mode": "Sea",
+    "vertical": "Retail",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01119_wesfarmers.pdf",
+        "url": "/api/quotes/files/QT-2024-01119_wesfarmers.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01119_wesfarmers.xlsx",
+        "url": "/api/quotes/files/QT-2024-01119_wesfarmers.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01119_wesfarmers.docx",
+        "url": "/api/quotes/files/QT-2024-01119_wesfarmers.docx"
+      }
+    ],
+    "name": "QT-2024-01119_wesfarmers.pdf"
+  },
+  {
+    "id": 80,
+    "quoteNo": "QT-2024-01080",
+    "customer": "Myer Holdings",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-04-24",
+    "effectiveDate": "2024-04-30",
+    "expiryDate": "2024-09-02",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Technology",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01080_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01080_myer.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01080_myer.docx",
+        "url": "/api/quotes/files/QT-2024-01080_myer.docx"
+      }
+    ],
+    "name": "QT-2024-01080_myer.pdf"
+  },
+  {
+    "id": 41,
+    "quoteNo": "QT-2024-01041",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-04-23",
+    "effectiveDate": "2024-05-03",
+    "expiryDate": "2024-08-28",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Automotive",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01041_rio.pdf",
+        "url": "/api/quotes/files/QT-2024-01041_rio.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01041_rio.xlsx",
+        "url": "/api/quotes/files/QT-2024-01041_rio.xlsx"
+      }
+    ],
+    "name": "QT-2024-01041_rio.pdf"
+  },
+  {
+    "id": 45,
+    "quoteNo": "QT-2024-01045",
+    "customer": "Woolworths Group",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-04-23",
+    "effectiveDate": "2024-05-01",
+    "expiryDate": "2024-08-12",
+    "direction": "Domestic",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01045_woolworths.pdf",
+        "url": "/api/quotes/files/QT-2024-01045_woolworths.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01045_woolworths.xlsx",
+        "url": "/api/quotes/files/QT-2024-01045_woolworths.xlsx"
+      }
+    ],
+    "name": "QT-2024-01045_woolworths.pdf"
+  },
+  {
+    "id": 86,
+    "quoteNo": "QT-2024-01086",
+    "customer": "Harvey Norman",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-04-23",
+    "effectiveDate": "2024-04-25",
+    "expiryDate": "2024-07-09",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Agriculture",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01086_harvey.docx",
+        "url": "/api/quotes/files/QT-2024-01086_harvey.docx"
+      }
+    ],
+    "name": "QT-2024-01086_harvey.docx"
+  },
+  {
+    "id": 13,
+    "quoteNo": "QT-2024-01013",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-04-21",
+    "effectiveDate": "2024-04-23",
+    "expiryDate": "2024-09-29",
+    "direction": "Cross-trade",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01013_target.docx",
+        "url": "/api/quotes/files/QT-2024-01013_target.docx"
+      }
+    ],
+    "name": "QT-2024-01013_target.docx"
+  },
+  {
+    "id": 37,
+    "quoteNo": "QT-2024-01037",
+    "customer": "Kmart Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-04-16",
+    "effectiveDate": "2024-04-19",
+    "expiryDate": "2024-09-14",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Retail",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01037_kmart.pdf",
+        "url": "/api/quotes/files/QT-2024-01037_kmart.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01037_kmart.docx",
+        "url": "/api/quotes/files/QT-2024-01037_kmart.docx"
+      }
+    ],
+    "name": "QT-2024-01037_kmart.pdf"
+  },
+  {
+    "id": 69,
+    "quoteNo": "QT-2024-01069",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-04-11",
+    "effectiveDate": "2024-04-20",
+    "expiryDate": "2024-07-16",
+    "direction": "Domestic",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01069_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01069_myer.pdf"
+      }
+    ],
+    "name": "QT-2024-01069_myer.pdf"
+  },
+  {
+    "id": 34,
+    "quoteNo": "QT-2024-01034",
+    "customer": "Target Australia",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-04-07",
+    "effectiveDate": "2024-04-10",
+    "expiryDate": "2024-06-19",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "Technology",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01034_target.xlsx",
+        "url": "/api/quotes/files/QT-2024-01034_target.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01034_target.docx",
+        "url": "/api/quotes/files/QT-2024-01034_target.docx"
+      }
+    ],
+    "name": "QT-2024-01034_target.xlsx"
+  },
+  {
+    "id": 18,
+    "quoteNo": "QT-2024-01018",
+    "customer": "BHP Billiton",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Isabella Wright",
+    "quoteDate": "2024-04-01",
+    "effectiveDate": "2024-04-06",
+    "expiryDate": "2024-08-02",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "FMCG",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01018_bhp.xlsx",
+        "url": "/api/quotes/files/QT-2024-01018_bhp.xlsx"
+      }
+    ],
+    "name": "QT-2024-01018_bhp.xlsx"
+  },
+  {
+    "id": 15,
+    "quoteNo": "QT-2024-01015",
+    "customer": "ANZ Banking",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-03-26",
+    "effectiveDate": "2024-03-28",
+    "expiryDate": "2024-08-28",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01015_anz.pdf",
+        "url": "/api/quotes/files/QT-2024-01015_anz.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01015_anz.docx",
+        "url": "/api/quotes/files/QT-2024-01015_anz.docx"
+      }
+    ],
+    "name": "QT-2024-01015_anz.pdf"
+  },
+  {
+    "id": 17,
+    "quoteNo": "QT-2024-01017",
+    "customer": "Viva Energy",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-03-25",
+    "effectiveDate": "2024-03-28",
+    "expiryDate": "2024-09-14",
+    "direction": "Cross-trade",
+    "mode": "Multi",
+    "vertical": "FMCG",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01017_viva.docx",
+        "url": "/api/quotes/files/QT-2024-01017_viva.docx"
+      }
+    ],
+    "name": "QT-2024-01017_viva.docx"
+  },
+  {
+    "id": 73,
+    "quoteNo": "QT-2024-01073",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-03-16",
+    "effectiveDate": "2024-03-22",
+    "expiryDate": "2024-09-11",
+    "direction": "Export",
+    "mode": "Air",
+    "vertical": "Retail",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01073_david.xlsx",
+        "url": "/api/quotes/files/QT-2024-01073_david.xlsx"
+      }
+    ],
+    "name": "QT-2024-01073_david.xlsx"
+  },
+  {
+    "id": 40,
+    "quoteNo": "QT-2024-01040",
+    "customer": "David Jones",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-03-10",
+    "effectiveDate": "2024-03-20",
+    "expiryDate": "2024-07-20",
+    "direction": "Import",
+    "mode": "Air",
+    "vertical": "FMCG",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01040_david.docx",
+        "url": "/api/quotes/files/QT-2024-01040_david.docx"
+      }
+    ],
+    "name": "QT-2024-01040_david.docx"
+  },
+  {
+    "id": 1,
+    "quoteNo": "QT-2024-01001",
+    "customer": "Santos Ltd",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-03-09",
+    "effectiveDate": "2024-03-10",
+    "expiryDate": "2024-07-06",
+    "direction": "Export",
+    "mode": "Sea",
+    "vertical": "Automotive",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01001_santos.pdf",
+        "url": "/api/quotes/files/QT-2024-01001_santos.pdf"
+      }
+    ],
+    "name": "QT-2024-01001_santos.pdf"
+  },
+  {
+    "id": 114,
+    "quoteNo": "QT-2024-01114",
+    "customer": "Aldi Australia",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-03-07",
+    "effectiveDate": "2024-03-13",
+    "expiryDate": "2024-07-22",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Technology",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01114_aldi.pdf",
+        "url": "/api/quotes/files/QT-2024-01114_aldi.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01114_aldi.xlsx",
+        "url": "/api/quotes/files/QT-2024-01114_aldi.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01114_aldi.docx",
+        "url": "/api/quotes/files/QT-2024-01114_aldi.docx"
+      }
+    ],
+    "name": "QT-2024-01114_aldi.pdf"
+  },
+  {
+    "id": 108,
+    "quoteNo": "QT-2024-01108",
+    "customer": "Qantas Freight",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-03-06",
+    "effectiveDate": "2024-03-12",
+    "expiryDate": "2024-05-08",
+    "direction": "Cross-trade",
+    "mode": "Multi",
+    "vertical": "Mining",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01108_qantas.pdf",
+        "url": "/api/quotes/files/QT-2024-01108_qantas.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01108_qantas.docx",
+        "url": "/api/quotes/files/QT-2024-01108_qantas.docx"
+      }
+    ],
+    "name": "QT-2024-01108_qantas.pdf"
+  },
+  {
+    "id": 56,
+    "quoteNo": "QT-2024-01056",
+    "customer": "Harvey Norman",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-03-05",
+    "effectiveDate": "2024-03-13",
+    "expiryDate": "2024-08-07",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Automotive",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01056_harvey.docx",
+        "url": "/api/quotes/files/QT-2024-01056_harvey.docx"
+      }
+    ],
+    "name": "QT-2024-01056_harvey.docx"
+  },
+  {
+    "id": 28,
+    "quoteNo": "QT-2024-01028",
+    "customer": "Rio Tinto",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "James Nguyen",
+    "quoteDate": "2024-03-01",
+    "effectiveDate": "2024-03-07",
+    "expiryDate": "2024-05-09",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "FMCG",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01028_rio.xlsx",
+        "url": "/api/quotes/files/QT-2024-01028_rio.xlsx"
+      }
+    ],
+    "name": "QT-2024-01028_rio.xlsx"
+  },
+  {
+    "id": 36,
+    "quoteNo": "QT-2024-01036",
+    "customer": "JB Hi-Fi",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Noah Campbell",
+    "quoteDate": "2024-03-01",
+    "effectiveDate": "2024-03-03",
+    "expiryDate": "2024-05-23",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Pharma",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01036_jb.docx",
+        "url": "/api/quotes/files/QT-2024-01036_jb.docx"
+      }
+    ],
+    "name": "QT-2024-01036_jb.docx"
+  },
+  {
+    "id": 66,
+    "quoteNo": "QT-2024-01066",
+    "customer": "Viva Energy",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-02-29",
+    "effectiveDate": "2024-03-08",
+    "expiryDate": "2024-07-01",
+    "direction": "Cross-trade",
+    "mode": "Air",
+    "vertical": "Technology",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01066_viva.xlsx",
+        "url": "/api/quotes/files/QT-2024-01066_viva.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01066_viva.docx",
+        "url": "/api/quotes/files/QT-2024-01066_viva.docx"
+      }
+    ],
+    "name": "QT-2024-01066_viva.xlsx"
+  },
+  {
+    "id": 110,
+    "quoteNo": "QT-2024-01110",
+    "customer": "Myer Holdings",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-02-25",
+    "effectiveDate": "2024-03-02",
+    "expiryDate": "2024-05-03",
+    "direction": "Export",
+    "mode": "Multi",
+    "vertical": "Pharma",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01110_myer.xlsx",
+        "url": "/api/quotes/files/QT-2024-01110_myer.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01110_myer.docx",
+        "url": "/api/quotes/files/QT-2024-01110_myer.docx"
+      }
+    ],
+    "name": "QT-2024-01110_myer.xlsx"
+  },
+  {
+    "id": 42,
+    "quoteNo": "QT-2024-01042",
+    "customer": "Endeavour Group",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Sarah Williams",
+    "quoteDate": "2024-02-10",
+    "effectiveDate": "2024-02-15",
+    "expiryDate": "2024-04-30",
+    "direction": "Domestic",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01042_endeavour.pdf",
+        "url": "/api/quotes/files/QT-2024-01042_endeavour.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01042_endeavour.xlsx",
+        "url": "/api/quotes/files/QT-2024-01042_endeavour.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01042_endeavour.docx",
+        "url": "/api/quotes/files/QT-2024-01042_endeavour.docx"
+      }
+    ],
+    "name": "QT-2024-01042_endeavour.pdf"
+  },
+  {
+    "id": 59,
+    "quoteNo": "QT-2024-01059",
+    "customer": "Woolworths Group",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-02-10",
+    "effectiveDate": "2024-02-13",
+    "expiryDate": "2024-06-22",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Automotive",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01059_woolworths.xlsx",
+        "url": "/api/quotes/files/QT-2024-01059_woolworths.xlsx"
+      }
+    ],
+    "name": "QT-2024-01059_woolworths.xlsx"
+  },
+  {
+    "id": 99,
+    "quoteNo": "QT-2024-01099",
+    "customer": "Rio Tinto",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-02-10",
+    "effectiveDate": "2024-02-16",
+    "expiryDate": "2024-04-20",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Other",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01099_rio.pdf",
+        "url": "/api/quotes/files/QT-2024-01099_rio.pdf"
+      }
+    ],
+    "name": "QT-2024-01099_rio.pdf"
+  },
+  {
+    "id": 82,
+    "quoteNo": "QT-2024-01082",
+    "customer": "Santos Ltd",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-02-06",
+    "effectiveDate": "2024-02-16",
+    "expiryDate": "2024-07-18",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Automotive",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01082_santos.pdf",
+        "url": "/api/quotes/files/QT-2024-01082_santos.pdf"
+      }
+    ],
+    "name": "QT-2024-01082_santos.pdf"
+  },
+  {
+    "id": 68,
+    "quoteNo": "QT-2024-01068",
+    "customer": "Wesfarmers",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Noah Campbell",
+    "quoteDate": "2024-01-31",
+    "effectiveDate": "2024-02-08",
+    "expiryDate": "2024-03-17",
+    "direction": "Domestic",
+    "mode": "Multi",
+    "vertical": "Pharma",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01068_wesfarmers.docx",
+        "url": "/api/quotes/files/QT-2024-01068_wesfarmers.docx"
+      }
+    ],
+    "name": "QT-2024-01068_wesfarmers.docx"
+  },
+  {
+    "id": 87,
+    "quoteNo": "QT-2024-01087",
+    "customer": "JB Hi-Fi",
+    "custType": "New",
+    "branch": "Melbourne",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-01-30",
+    "effectiveDate": "2024-02-08",
+    "expiryDate": "2024-03-01",
+    "direction": "Import",
+    "mode": "Multi",
+    "vertical": "Technology",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01087_jb.pdf",
+        "url": "/api/quotes/files/QT-2024-01087_jb.pdf"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01087_jb.docx",
+        "url": "/api/quotes/files/QT-2024-01087_jb.docx"
+      }
+    ],
+    "name": "QT-2024-01087_jb.pdf"
+  },
+  {
+    "id": 6,
+    "quoteNo": "QT-2024-01006",
+    "customer": "BHP Billiton",
+    "custType": "New",
+    "branch": "Perth",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-01-24",
+    "effectiveDate": "2024-01-25",
+    "expiryDate": "2024-03-28",
+    "direction": "Cross-trade",
+    "mode": "Road",
+    "vertical": "Automotive",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "docx",
+        "name": "QT-2024-01006_bhp.docx",
+        "url": "/api/quotes/files/QT-2024-01006_bhp.docx"
+      }
+    ],
+    "name": "QT-2024-01006_bhp.docx"
+  },
+  {
+    "id": 67,
+    "quoteNo": "QT-2024-01067",
+    "customer": "Harvey Norman",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Olivia Chen",
+    "quoteDate": "2024-01-22",
+    "effectiveDate": "2024-01-23",
+    "expiryDate": "2024-03-18",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Agriculture",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01067_harvey.pdf",
+        "url": "/api/quotes/files/QT-2024-01067_harvey.pdf"
+      }
+    ],
+    "name": "QT-2024-01067_harvey.pdf"
+  },
+  {
+    "id": 16,
+    "quoteNo": "QT-2024-01016",
+    "customer": "Myer Holdings",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-01-20",
+    "effectiveDate": "2024-01-21",
+    "expiryDate": "2024-05-27",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Agriculture",
+    "status": "Lost",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01016_myer.pdf",
+        "url": "/api/quotes/files/QT-2024-01016_myer.pdf"
+      }
+    ],
+    "name": "QT-2024-01016_myer.pdf"
+  },
+  {
+    "id": 101,
+    "quoteNo": "QT-2024-01101",
+    "customer": "Woolworths Group",
+    "custType": "Existing",
+    "branch": "Melbourne",
+    "rep": "Emma Thompson",
+    "quoteDate": "2024-01-17",
+    "effectiveDate": "2024-01-20",
+    "expiryDate": "2024-04-04",
+    "direction": "Export",
+    "mode": "Road",
+    "vertical": "Retail",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01101_woolworths.pdf",
+        "url": "/api/quotes/files/QT-2024-01101_woolworths.pdf"
+      }
+    ],
+    "name": "QT-2024-01101_woolworths.pdf"
+  },
+  {
+    "id": 53,
+    "quoteNo": "QT-2024-01053",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Adelaide",
+    "rep": "Ava Martinez",
+    "quoteDate": "2024-01-14",
+    "effectiveDate": "2024-01-19",
+    "expiryDate": "2024-04-04",
+    "direction": "Import",
+    "mode": "Multi",
+    "vertical": "Retail",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01053_target.xlsx",
+        "url": "/api/quotes/files/QT-2024-01053_target.xlsx"
+      }
+    ],
+    "name": "QT-2024-01053_target.xlsx"
+  },
+  {
+    "id": 19,
+    "quoteNo": "QT-2024-01019",
+    "customer": "JB Hi-Fi",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-01-10",
+    "effectiveDate": "2024-01-17",
+    "expiryDate": "2024-02-19",
+    "direction": "Import",
+    "mode": "Road",
+    "vertical": "Retail",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01019_jb.pdf",
+        "url": "/api/quotes/files/QT-2024-01019_jb.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01019_jb.xlsx",
+        "url": "/api/quotes/files/QT-2024-01019_jb.xlsx"
+      }
+    ],
+    "name": "QT-2024-01019_jb.pdf"
+  },
+  {
+    "id": 91,
+    "quoteNo": "QT-2024-01091",
+    "customer": "Toll Ipec",
+    "custType": "New",
+    "branch": "Sydney",
+    "rep": "Mason Turner",
+    "quoteDate": "2024-01-10",
+    "effectiveDate": "2024-01-20",
+    "expiryDate": "2024-06-22",
+    "direction": "Domestic",
+    "mode": "Road",
+    "vertical": "Mining",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01091_toll.pdf",
+        "url": "/api/quotes/files/QT-2024-01091_toll.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01091_toll.xlsx",
+        "url": "/api/quotes/files/QT-2024-01091_toll.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01091_toll.docx",
+        "url": "/api/quotes/files/QT-2024-01091_toll.docx"
+      }
+    ],
+    "name": "QT-2024-01091_toll.pdf"
+  },
+  {
+    "id": 102,
+    "quoteNo": "QT-2024-01102",
+    "customer": "Target Australia",
+    "custType": "Existing",
+    "branch": "Brisbane",
+    "rep": "Liam Foster",
+    "quoteDate": "2024-01-07",
+    "effectiveDate": "2024-01-17",
+    "expiryDate": "2024-04-11",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Agriculture",
+    "status": "Pending",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2024-01102_target.pdf",
+        "url": "/api/quotes/files/QT-2024-01102_target.pdf"
+      }
+    ],
+    "name": "QT-2024-01102_target.pdf"
+  },
+  {
+    "id": 95,
+    "quoteNo": "QT-2024-01095",
+    "customer": "Wesfarmers",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Daniel Park",
+    "quoteDate": "2024-01-02",
+    "effectiveDate": "2024-01-07",
+    "expiryDate": "2024-03-08",
+    "direction": "Import",
+    "mode": "Rail",
+    "vertical": "Other",
+    "status": "Won",
+    "docs": [
+      {
+        "type": "xlsx",
+        "name": "QT-2024-01095_wesfarmers.xlsx",
+        "url": "/api/quotes/files/QT-2024-01095_wesfarmers.xlsx"
+      },
+      {
+        "type": "docx",
+        "name": "QT-2024-01095_wesfarmers.docx",
+        "url": "/api/quotes/files/QT-2024-01095_wesfarmers.docx"
+      }
+    ],
+    "name": "QT-2024-01095_wesfarmers.xlsx"
+  },
+  {
+    "id": 89,
+    "quoteNo": "QT-2023-01089",
+    "customer": "Santos Ltd",
+    "custType": "Existing",
+    "branch": "Sydney",
+    "rep": "Emma Thompson",
+    "quoteDate": "2023-12-31",
+    "effectiveDate": "2024-01-03",
+    "expiryDate": "2024-02-10",
+    "direction": "Import",
+    "mode": "Air",
+    "vertical": "Retail",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2023-01089_santos.pdf",
+        "url": "/api/quotes/files/QT-2023-01089_santos.pdf"
+      },
+      {
+        "type": "xlsx",
+        "name": "QT-2023-01089_santos.xlsx",
+        "url": "/api/quotes/files/QT-2023-01089_santos.xlsx"
+      }
+    ],
+    "name": "QT-2023-01089_santos.pdf"
+  },
+  {
+    "id": 84,
+    "quoteNo": "QT-2023-01084",
+    "customer": "Coles Group",
+    "custType": "Existing",
+    "branch": "Perth",
+    "rep": "Olivia Chen",
+    "quoteDate": "2023-12-20",
+    "effectiveDate": "2023-12-27",
+    "expiryDate": "2024-04-30",
+    "direction": "Export",
+    "mode": "Rail",
+    "vertical": "FMCG",
+    "status": "Expired",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2023-01084_coles.pdf",
+        "url": "/api/quotes/files/QT-2023-01084_coles.pdf"
+      }
+    ],
+    "name": "QT-2023-01084_coles.pdf"
+  },
+  {
+    "id": 106,
+    "quoteNo": "QT-2023-01106",
+    "customer": "Aldi Australia",
+    "custType": "New",
+    "branch": "Brisbane",
+    "rep": "Emma Thompson",
+    "quoteDate": "2023-12-09",
+    "effectiveDate": "2023-12-19",
+    "expiryDate": "2024-04-26",
+    "direction": "Cross-trade",
+    "mode": "Rail",
+    "vertical": "Retail",
+    "status": "Active",
+    "docs": [
+      {
+        "type": "pdf",
+        "name": "QT-2023-01106_aldi.pdf",
+        "url": "/api/quotes/files/QT-2023-01106_aldi.pdf"
+      }
+    ],
+    "name": "QT-2023-01106_aldi.pdf"
+  }
+]

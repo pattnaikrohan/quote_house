@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quote House — AAW Group Holdings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#003087;
+  --navy-dark:#002060;
+  --navy-light:#e8eef8;
+  --accent:#0078d4;
+  --accent-light:#e6f2fb;
+  --surface:#ffffff;
+  --surface-2:#f7f8fa;
+  --surface-3:#f0f2f5;
+  --border:#e2e5ea;
+  --border-strong:#c8cdd6;
+  --text-primary:#0f1923;
+  --text-secondary:#4a5568;
+  --text-muted:#8a94a6;
+  --green:#0e7a4a;
+  --green-bg:#e6f4ee;
+  --orange:#b45309;
+  --orange-bg:#fef3e2;
+  --red:#c0392b;
+  --red-bg:#fdecea;
+  --teal:#0e7490;
+  --teal-bg:#e6f5f8;
+  --coral:#c2410c;
+  --coral-bg:#fff0eb;
+  --blue:#1d4ed8;
+  --blue-bg:#eff3ff;
+  --radius-sm:4px;
+  --radius:8px;
+  --radius-lg:12px;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.08);
+  --shadow:0 4px 16px rgba(0,0,0,.10);
+  --shadow-lg:0 12px 40px rgba(0,0,0,.16);
+  --header-h:56px;
+  --font:'DM Sans',system-ui,sans-serif;
+  --mono:'DM Mono',monospace;
+}
+
+html{font-size:14px;-webkit-font-smoothing:antialiased}
+body{font-family:var(--font);color:var(--text-primary);background:var(--surface-2);min-height:100vh}
+
+/* ── HEADER ── */
+#header{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  height:var(--header-h);
+  background:var(--navy);
+  display:flex;align-items:center;gap:0;
+  padding:0 24px;
+  box-shadow:0 2px 12px rgba(0,30,80,.25);
+}
+#header-logo{
+  display:flex;align-items:center;gap:10px;
+  text-decoration:none;
+}
+#header-wordmark{
+  display:flex;align-items:baseline;gap:6px;
+}
+.hw-aaw{
+  font-size:11px;font-weight:600;letter-spacing:.12em;
+  color:rgba(255,255,255,.55);text-transform:uppercase;
+}
+.hw-sep{color:rgba(255,255,255,.25);font-weight:300;font-size:14px}
+.hw-app{font-size:15px;font-weight:500;color:#fff;letter-spacing:-.01em}
+#header-spacer{flex:1}
+#header-badge{
+  font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(255,255,255,.45);margin-right:20px;
+}
+#btn-upload-header{
+  display:flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.2);
+  border-radius:var(--radius);
+  color:#fff;font-family:var(--font);font-size:13px;font-weight:500;
+  padding:7px 14px;cursor:pointer;
+  transition:background .15s,border-color .15s;
+}
+#btn-upload-header:hover{background:rgba(255,255,255,.22);border-color:rgba(255,255,255,.35)}
+#btn-upload-header svg{opacity:.8}
+
+/* ── LAYOUT ── */
+#main{margin-top:var(--header-h);padding:20px 24px 40px}
+
+/* ── CONTROLS PANEL ── */
+#controls{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  padding:16px 18px;
+  margin-bottom:16px;
+  box-shadow:var(--shadow-sm);
+  animation:slideDown .3s ease both;
+}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+
+#search-row{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+#search-wrap{
+  flex:1;position:relative;
+}
+#search-wrap svg{
+  position:absolute;left:10px;top:50%;transform:translateY(-50%);
+  color:var(--text-muted);pointer-events:none;
+}
+#search{
+  width:100%;padding:8px 10px 8px 34px;
+  font-family:var(--font);font-size:13px;
+  border:1px solid var(--border-strong);border-radius:var(--radius);
+  background:var(--surface-2);color:var(--text-primary);
+  transition:border-color .15s,background .15s;
+}
+#search:focus{outline:none;border-color:var(--accent);background:#fff}
+#btn-clear{
+  font-family:var(--font);font-size:12px;font-weight:500;
+  color:var(--text-secondary);border:1px solid var(--border);
+  background:#fff;border-radius:var(--radius);
+  padding:7px 12px;cursor:pointer;white-space:nowrap;
+  transition:border-color .15s,color .15s;
+}
+#btn-clear:hover{border-color:var(--border-strong);color:var(--text-primary)}
+
+.filter-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:8px;
+  margin-bottom:12px;
+}
+.filter-group{display:flex;flex-direction:column;gap:3px}
+.filter-label{font-size:11px;font-weight:500;color:var(--text-muted);letter-spacing:.04em;text-transform:uppercase}
+.filter-select{
+  font-family:var(--font);font-size:12px;
+  padding:6px 8px;border:1px solid var(--border-strong);
+  border-radius:var(--radius-sm);background:var(--surface-2);
+  color:var(--text-primary);cursor:pointer;
+  transition:border-color .15s;
+}
+.filter-select:focus{outline:none;border-color:var(--accent)}
+
+.date-row{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
+}
+.date-group{display:flex;flex-direction:column;gap:3px}
+.date-input{
+  font-family:var(--font);font-size:12px;
+  padding:6px 8px;border:1px solid var(--border-strong);
+  border-radius:var(--radius-sm);background:var(--surface-2);
+  color:var(--text-primary);
+}
+.date-input:focus{outline:none;border-color:var(--accent)}
+
+/* ── RESULTS BAR ── */
+#results-bar{
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:10px;padding:0 2px;
+}
+#result-count{
+  font-size:12px;font-weight:500;color:var(--text-secondary);flex:1;
+}
+#result-count strong{color:var(--text-primary)}
+.sort-row{display:flex;align-items:center;gap:6px}
+.sort-label{font-size:11px;font-weight:500;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em}
+.sort-select{
+  font-family:var(--font);font-size:12px;
+  padding:5px 8px;border:1px solid var(--border);
+  border-radius:var(--radius-sm);background:#fff;color:var(--text-primary);cursor:pointer;
+}
+.sort-select:focus{outline:none;border-color:var(--accent)}
+
+/* ── TABLE ── */
+#table-wrap{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-lg);overflow:hidden;
+  box-shadow:var(--shadow-sm);
+}
+#quote-table{width:100%;border-collapse:collapse;table-layout:fixed}
+#quote-table thead tr{background:var(--surface-3);border-bottom:2px solid var(--border)}
+#quote-table th{
+  font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--text-muted);text-align:left;padding:10px 12px;
+  white-space:nowrap;
+}
+#quote-table th:first-child{padding-left:16px}
+#quote-table tbody tr{
+  border-bottom:1px solid var(--border);cursor:pointer;
+  transition:background .1s;
+  animation:fadeRow .25s ease both;
+}
+#quote-table tbody tr:last-child{border-bottom:none}
+#quote-table tbody tr:hover{background:var(--accent-light)}
+@keyframes fadeRow{from{opacity:0;transform:translateX(-4px)}to{opacity:1;transform:none}}
+#quote-table td{padding:10px 12px;font-size:12px;color:var(--text-secondary);vertical-align:middle;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#quote-table td:first-child{padding-left:16px}
+.col-file{width:24%}
+.col-customer{width:16%}
+.col-rep{width:10%}
+.col-branch{width:9%}
+.col-dir{width:8%}
+.col-mode{width:7%}
+.col-qdate{width:9%}
+.col-expiry{width:9%}
+.col-status{width:8%}
+
+/* file cell */
+.file-cell{display:flex;align-items:center;gap:6px}
+.file-icon{font-size:13px;font-family:var(--mono);font-weight:500;
+  padding:2px 5px;border-radius:3px;letter-spacing:.03em;flex-shrink:0;font-size:10px}
+.fi-pdf{background:#fdecea;color:#c0392b}
+.fi-xlsx{background:#e6f4ee;color:#0e7a4a}
+.fi-docx{background:#eff3ff;color:#1d4ed8}
+.file-name{font-size:12px;color:var(--text-primary);font-weight:500;overflow:hidden;text-overflow:ellipsis}
+.multi-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:18px;height:18px;border-radius:50%;
+  background:var(--accent);color:#fff;
+  font-size:10px;font-weight:600;flex-shrink:0;
+}
+
+/* status badges */
+.status-badge{
+  display:inline-block;padding:2px 8px;border-radius:20px;
+  font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+}
+.s-Active{background:var(--green-bg);color:var(--green)}
+.s-Pending{background:var(--orange-bg);color:var(--orange)}
+.s-Expired{background:var(--red-bg);color:var(--red)}
+.s-Won{background:var(--teal-bg);color:var(--teal)}
+.s-Lost{background:var(--coral-bg);color:var(--coral)}
+
+/* quote number */
+.qno{font-family:var(--mono);font-size:11px;color:var(--text-muted)}
+
+/* no results */
+#no-results{
+  display:none;
+  padding:48px 24px;text-align:center;
+}
+#no-results .nr-icon{font-size:32px;margin-bottom:12px;opacity:.4}
+#no-results p{font-size:14px;color:var(--text-muted)}
+
+/* ── DETAIL MODAL ── */
+.modal-overlay{
+  display:none;position:fixed;inset:0;z-index:400;
+  background:rgba(10,20,40,.45);backdrop-filter:blur(2px);
+  align-items:center;justify-content:center;padding:24px;
+}
+.modal-overlay.open{display:flex}
+.modal-box{
+  background:#fff;border-radius:var(--radius-lg);
+  width:100%;max-width:640px;max-height:88vh;
+  overflow-y:auto;
+  box-shadow:var(--shadow-lg);
+  animation:modalIn .2s cubic-bezier(.22,1,.36,1) both;
+}
+@keyframes modalIn{from{opacity:0;transform:scale(.96) translateY(8px)}to{opacity:1;transform:none}}
+.modal-header{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  padding:20px 22px 16px;
+  border-bottom:1px solid var(--border);
+  position:sticky;top:0;background:#fff;z-index:1;
+}
+.modal-title{font-size:16px;font-weight:600;color:var(--text-primary)}
+.modal-subtitle{font-size:12px;color:var(--text-muted);margin-top:2px}
+.btn-modal-close{
+  background:none;border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:5px 10px;cursor:pointer;font-family:var(--font);font-size:12px;color:var(--text-secondary);
+  display:flex;align-items:center;gap:4px;transition:border-color .15s;
+}
+.btn-modal-close:hover{border-color:var(--border-strong);color:var(--text-primary)}
+.modal-body{padding:20px 22px}
+
+.modal-section-label{
+  font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--text-muted);margin-bottom:10px;
+  padding-bottom:6px;border-bottom:1px solid var(--border);
+}
+.doc-list{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.doc-row{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 12px;border-radius:var(--radius);
+  border:1px solid var(--border);background:var(--surface-2);
+}
+.doc-row-name{font-size:12px;font-weight:500;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn-open{
+  font-family:var(--font);font-size:11px;font-weight:500;
+  background:var(--navy);color:#fff;border:none;border-radius:var(--radius-sm);
+  padding:5px 10px;cursor:pointer;white-space:nowrap;
+  transition:background .15s;
+}
+.btn-open:hover{background:var(--navy-dark)}
+
+.meta-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:0;
+}
+.meta-row{
+  display:contents;
+}
+.meta-key,.meta-val{
+  padding:7px 0;border-bottom:1px solid var(--border);
+  font-size:12px;
+}
+.meta-key{color:var(--text-muted);font-weight:500;padding-right:12px}
+.meta-val{color:var(--text-primary)}
+
+.modal-footer{
+  display:flex;justify-content:flex-end;
+  padding:14px 22px;border-top:1px solid var(--border);
+  position:sticky;bottom:0;background:#fff;
+}
+.btn-close-footer{
+  font-family:var(--font);font-size:13px;font-weight:500;
+  background:var(--surface-2);border:1px solid var(--border-strong);
+  border-radius:var(--radius);padding:8px 18px;cursor:pointer;color:var(--text-primary);
+  transition:background .15s;
+}
+.btn-close-footer:hover{background:var(--surface-3)}
+
+/* ── UPLOAD MODAL ── */
+#upload-overlay{
+  display:none;position:fixed;inset:0;z-index:500;
+  background:rgba(10,20,40,.5);backdrop-filter:blur(3px);
+  align-items:center;justify-content:center;padding:24px;
+}
+#upload-overlay.open{display:flex}
+#upload-modal{
+  background:#fff;border-radius:var(--radius-lg);
+  width:100%;max-width:660px;max-height:92vh;overflow-y:auto;
+  box-shadow:var(--shadow-lg);
+  animation:modalIn .2s cubic-bezier(.22,1,.36,1) both;
+}
+.upload-header{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  padding:20px 22px 14px;border-bottom:1px solid var(--border);
+  position:sticky;top:0;background:#fff;z-index:1;
+}
+.upload-header-left .modal-title{font-size:15px}
+.upload-header-left .modal-subtitle{font-size:12px;color:var(--text-muted);margin-top:3px}
+.upload-body{padding:18px 22px;display:flex;flex-direction:column;gap:18px}
+
+/* drop zone */
+.drop-zone{
+  border:2px dashed var(--border-strong);border-radius:var(--radius-lg);
+  padding:28px 20px;text-align:center;cursor:pointer;
+  transition:border-color .15s,background .15s;
+  background:var(--surface-2);
+}
+.drop-zone:hover,.drop-zone.over{border-color:var(--accent);background:var(--accent-light)}
+.dz-icon{font-size:28px;margin-bottom:8px;opacity:.5}
+.dz-label{font-size:14px;font-weight:500;color:var(--text-primary);margin-bottom:4px}
+.dz-sub{font-size:12px;color:var(--text-muted)}
+.dz-sub span{font-family:var(--mono);font-size:11px}
+#file-chip{
+  display:none;align-items:center;gap:10px;
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:10px 14px;background:var(--surface-2);margin-top:8px;
+}
+.chip-icon{font-size:10px;font-weight:600;padding:3px 6px;border-radius:3px;font-family:var(--mono)}
+.chip-name{font-size:13px;font-weight:500;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip-remove{background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:16px;line-height:1;padding:0 2px;transition:color .1s}
+.chip-remove:hover{color:var(--text-primary)}
+.upload-err{font-size:11px;color:var(--red);margin-top:4px;display:none}
+
+/* form sections */
+.form-section-label{
+  font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--text-muted);padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:12px;
+}
+.form-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.form-grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.form-field{display:flex;flex-direction:column;gap:4px}
+.form-field.error .form-input,.form-field.error .form-select{border-color:var(--red)}
+.form-field .field-err{display:none;font-size:11px;color:var(--red)}
+.form-field.error .field-err{display:block}
+.field-label{
+  font-size:11px;font-weight:500;color:var(--text-secondary);
+  display:flex;align-items:center;gap:5px;
+}
+.req-star{color:var(--red);font-size:12px}
+.opt-tag{
+  font-size:10px;color:var(--text-muted);
+  background:var(--surface-3);border:1px solid var(--border);
+  border-radius:3px;padding:1px 5px;font-weight:400;
+}
+.form-input,.form-select{
+  font-family:var(--font);font-size:12px;
+  padding:7px 9px;
+  border:1px solid var(--border-strong);border-radius:var(--radius-sm);
+  background:#fff;color:var(--text-primary);
+  transition:border-color .15s;
+}
+.form-input:focus,.form-select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px rgba(0,120,212,.12)}
+.form-input::placeholder{color:var(--text-muted)}
+
+.upload-footer{
+  display:flex;justify-content:flex-end;gap:10px;
+  padding:14px 22px;border-top:1px solid var(--border);
+  position:sticky;bottom:0;background:#fff;
+}
+.btn-cancel{
+  font-family:var(--font);font-size:13px;
+  background:#fff;border:1px solid var(--border-strong);
+  border-radius:var(--radius);padding:8px 16px;cursor:pointer;color:var(--text-secondary);
+  transition:background .15s;
+}
+.btn-cancel:hover{background:var(--surface-2)}
+.btn-submit{
+  font-family:var(--font);font-size:13px;font-weight:600;
+  background:var(--navy);color:#fff;border:none;
+  border-radius:var(--radius);padding:8px 20px;cursor:pointer;
+  display:flex;align-items:center;gap:6px;
+  transition:background .15s;
+}
+.btn-submit:hover{background:var(--navy-dark)}
+.btn-submit:disabled{opacity:.5;cursor:not-allowed}
+
+/* ── TOAST ── */
+#toast{
+  position:fixed;bottom:24px;right:24px;z-index:600;
+  display:flex;align-items:center;gap:10px;
+  background:#0f1923;color:#fff;
+  padding:12px 18px;border-radius:var(--radius);
+  font-size:13px;font-weight:500;
+  box-shadow:var(--shadow-lg);
+  opacity:0;pointer-events:none;
+  transform:translateY(8px);
+  transition:opacity .25s,transform .25s;
+}
+#toast.show{opacity:1;pointer-events:auto;transform:none}
+#toast .toast-dot{
+  width:8px;height:8px;border-radius:50%;background:#4ade80;flex-shrink:0;
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <a id="header-logo" href="#">
+    <div id="header-wordmark">
+      <span class="hw-aaw">AAW</span>
+      <span class="hw-sep">|</span>
+      <span class="hw-app">Quote House</span>
+    </div>
+  </a>
+  <div id="header-spacer"></div>
+  <span id="header-badge">Prototype</span>
+  <button id="btn-upload-header" onclick="openUpload()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+    Upload quote
+  </button>
+</header>
+
+<!-- MAIN -->
+<main id="main">
+
+  <!-- CONTROLS -->
+  <div id="controls">
+    <div id="search-row">
+      <div id="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search" placeholder="Search quote number, customer or file name…">
+      </div>
+      <button id="btn-clear" onclick="clearAll()">Clear filters</button>
+    </div>
+
+    <div class="filter-grid">
+      <div class="filter-group"><div class="filter-label">Customer</div><select class="filter-select" id="f-customer" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Branch</div><select class="filter-select" id="f-branch" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Sales rep</div><select class="filter-select" id="f-rep" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Direction</div><select class="filter-select" id="f-direction" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Mode</div><select class="filter-select" id="f-mode" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Vertical</div><select class="filter-select" id="f-vertical" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Customer type</div><select class="filter-select" id="f-custType" onchange="applyFilters()"><option value="">All</option></select></div>
+      <div class="filter-group"><div class="filter-label">Status</div><select class="filter-select" id="f-status" onchange="applyFilters()"><option value="">All</option></select></div>
+    </div>
+
+    <div class="date-row">
+      <div class="date-group"><div class="filter-label">Quote date from</div><input type="date" class="date-input" id="d-quoteFrom" onchange="applyFilters()"></div>
+      <div class="date-group"><div class="filter-label">Quote date to</div><input type="date" class="date-input" id="d-quoteTo" onchange="applyFilters()"></div>
+      <div class="date-group"><div class="filter-label">Expiry from</div><input type="date" class="date-input" id="d-expiryFrom" onchange="applyFilters()"></div>
+      <div class="date-group"><div class="filter-label">Expiry to</div><input type="date" class="date-input" id="d-expiryTo" onchange="applyFilters()"></div>
+    </div>
+  </div>
+
+  <!-- RESULTS BAR -->
+  <div id="results-bar">
+    <div id="result-count"></div>
+    <div class="sort-row">
+      <span class="sort-label">Sort</span>
+      <select class="sort-select" id="sort-col" onchange="applyFilters()">
+        <option value="quoteDate">Quote date</option>
+        <option value="expiryDate">Expiry date</option>
+        <option value="customer">Customer</option>
+        <option value="quoteNo">Quote number</option>
+      </select>
+      <select class="sort-select" id="sort-dir" onchange="applyFilters()">
+        <option value="desc">Newest first</option>
+        <option value="asc">Oldest first</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- TABLE -->
+  <div id="table-wrap">
+    <table id="quote-table">
+      <colgroup>
+        <col class="col-file"><col class="col-customer"><col class="col-rep">
+        <col class="col-branch"><col class="col-dir"><col class="col-mode">
+        <col class="col-qdate"><col class="col-expiry"><col class="col-status">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>File / Quote No</th><th>Customer</th><th>Rep</th>
+          <th>Branch</th><th>Direction</th><th>Mode</th>
+          <th>Quote date</th><th>Expiry</th><th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div id="no-results">
+      <div class="nr-icon">⊘</div>
+      <p>No quotes match the current filters.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- DETAIL MODAL -->
+<div class="modal-overlay" id="detail-overlay" onclick="handleDetailOverlay(event)">
+  <div class="modal-box" id="detail-box">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title" id="d-title"></div>
+        <div class="modal-subtitle" id="d-sub"></div>
+      </div>
+      <button class="btn-modal-close" onclick="closeDetail()">✕ Close</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section-label">Documents</div>
+      <div class="doc-list" id="d-docs"></div>
+      <div class="modal-section-label">Metadata</div>
+      <div class="meta-grid" id="d-meta"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-close-footer" onclick="closeDetail()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- UPLOAD MODAL -->
+<div id="upload-overlay" onclick="handleUploadOverlay(event)">
+  <div id="upload-modal">
+    <div class="upload-header">
+      <div class="upload-header-left">
+        <div class="modal-title">Upload quote</div>
+        <div class="modal-subtitle">Fields marked <span style="color:var(--red)">*</span> are mandatory</div>
+      </div>
+      <button class="btn-modal-close" onclick="closeUpload()">✕ Close</button>
+    </div>
+    <div class="upload-body">
+
+      <!-- Drop zone -->
+      <div>
+        <div class="form-section-label">Document</div>
+        <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()"
+          ondragover="dzOver(event)" ondragleave="dzLeave()" ondrop="dzDrop(event)">
+          <div class="dz-icon">📎</div>
+          <div class="dz-label">Drop file here or click to browse</div>
+          <div class="dz-sub"><span>PDF</span> &nbsp;·&nbsp; <span>XLSX</span> &nbsp;·&nbsp; <span>DOCX</span> &nbsp;·&nbsp; max 50 MB</div>
+        </div>
+        <input type="file" id="file-input" accept=".pdf,.xlsx,.xls,.docx,.doc" style="display:none" onchange="fileSelected(event)">
+        <div id="file-chip">
+          <span class="chip-icon" id="chip-icon"></span>
+          <span class="chip-name" id="chip-name"></span>
+          <button class="chip-remove" onclick="removeFile()">✕</button>
+        </div>
+        <div class="upload-err" id="err-file">A quote document is required.</div>
+      </div>
+
+      <!-- Quote identity -->
+      <div>
+        <div class="form-section-label">Quote identity</div>
+        <div class="form-grid-2">
+          <div class="form-field" id="ff-quoteNo">
+            <div class="field-label">Quote number <span class="req-star">*</span></div>
+            <input class="form-input" id="u-quoteNo" type="text" placeholder="e.g. QT-2025-00500">
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-customer">
+            <div class="field-label">Customer <span class="req-star">*</span></div>
+            <input class="form-input" id="u-customer" type="text" placeholder="Company name">
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-custType">
+            <div class="field-label">Customer type <span class="req-star">*</span></div>
+            <select class="form-select" id="u-custType">
+              <option value="">Select…</option>
+              <option>New</option><option>Existing</option>
+            </select>
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-status">
+            <div class="field-label">Status <span class="req-star">*</span></div>
+            <select class="form-select" id="u-status">
+              <option value="">Select…</option>
+              <option>Active</option><option>Pending</option><option>Expired</option><option>Won</option><option>Lost</option>
+            </select>
+            <div class="field-err">Required</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Routing -->
+      <div>
+        <div class="form-section-label">Routing &amp; classification</div>
+        <div class="form-grid-2">
+          <div class="form-field" id="ff-branch">
+            <div class="field-label">Branch <span class="req-star">*</span></div>
+            <select class="form-select" id="u-branch">
+              <option value="">Select…</option>
+              <option>Melbourne</option><option>Sydney</option><option>Brisbane</option><option>Perth</option><option>Adelaide</option>
+            </select>
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-rep">
+            <div class="field-label">Sales rep <span class="req-star">*</span></div>
+            <input class="form-input" id="u-rep" type="text" placeholder="Full name">
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-direction">
+            <div class="field-label">Direction <span class="req-star">*</span></div>
+            <select class="form-select" id="u-direction">
+              <option value="">Select…</option>
+              <option>Import</option><option>Export</option><option>Domestic</option><option>Cross-trade</option>
+            </select>
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" id="ff-mode">
+            <div class="field-label">Mode <span class="req-star">*</span></div>
+            <select class="form-select" id="u-mode">
+              <option value="">Select…</option>
+              <option>Air</option><option>Sea</option><option>Road</option><option>Rail</option><option>Multi</option>
+            </select>
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field" style="grid-column:1/-1">
+            <div class="field-label">Vertical <span class="opt-tag">optional</span></div>
+            <select class="form-select" id="u-vertical">
+              <option value="">Select…</option>
+              <option>Retail</option><option>FMCG</option><option>Pharma</option><option>Automotive</option><option>Technology</option><option>Mining</option><option>Agriculture</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dates -->
+      <div>
+        <div class="form-section-label">Dates</div>
+        <div class="form-grid-3">
+          <div class="form-field" id="ff-quoteDate">
+            <div class="field-label">Quote date <span class="req-star">*</span></div>
+            <input class="form-input" id="u-quoteDate" type="date">
+            <div class="field-err">Required</div>
+          </div>
+          <div class="form-field">
+            <div class="field-label">Effective date <span class="opt-tag">optional</span></div>
+            <input class="form-input" id="u-effectiveDate" type="date">
+          </div>
+          <div class="form-field" id="ff-expiryDate">
+            <div class="field-label">Expiry date <span class="req-star">*</span></div>
+            <input class="form-input" id="u-expiryDate" type="date">
+            <div class="field-err">Required</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="upload-footer">
+      <button class="btn-cancel" onclick="closeUpload()">Cancel</button>
+      <button class="btn-submit" onclick="submitUpload()">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        Upload quote
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"><span class="toast-dot"></span><span id="toast-msg"></span></div>
+
+<script>
+// ──────────────────────────────────────────────
+// DATA GENERATION
+// ──────────────────────────────────────────────
+const CUSTOMERS = ['Toll Ipec','Woolworths Group','BHP Billiton','Coles Group','Wesfarmers','Santos Ltd','ANZ Banking','Rio Tinto','Qantas Freight','Australia Post','JB Hi-Fi','Harvey Norman','Kmart Australia','Target Australia','David Jones','Myer Holdings','Aldi Australia','Metcash Ltd','Endeavour Group','Viva Energy'];
+const BRANCHES = ['Melbourne','Sydney','Brisbane','Perth','Adelaide'];
+const REPS = ['Sarah Williams','James Nguyen','Emma Thompson','Daniel Park','Olivia Chen','Liam Foster','Ava Martinez','Noah Campbell','Isabella Wright','Mason Turner'];
+const DIRECTIONS = ['Import','Export','Domestic','Cross-trade'];
+const MODES = ['Air','Sea','Road','Rail','Multi'];
+const VERTICALS = ['Retail','FMCG','Pharma','Automotive','Technology','Mining','Agriculture','Other'];
+const STATUSES = ['Active','Pending','Expired','Won','Lost'];
+const DOC_TYPES = ['pdf','xlsx','docx'];
+
+function rnd(arr){return arr[Math.floor(Math.random()*arr.length)]}
+function rndInt(a,b){return Math.floor(Math.random()*(b-a+1))+a}
+function dateStr(d){return d.toISOString().split('T')[0]}
+function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r}
+function fmtDate(s){if(!s)return '—';const[y,m,d]=s.split('-');return `${d}/${m}/${y}`}
+
+function genQuotes(n){
+  const now=new Date('2025-06-01');
+  return Array.from({length:n},(_,i)=>{
+    const qDate=addDays(now,-rndInt(0,540));
+    const expiryDate=addDays(qDate,rndInt(30,180));
+    const effectiveDate=addDays(qDate,rndInt(1,10));
+    const yr=qDate.getFullYear();
+    const seq=String(1000+i+1).padStart(5,'0');
+    const quoteNo=`QT-${yr}-${seq}`;
+    const customer=rnd(CUSTOMERS);
+    const branch=rnd(BRANCHES);
+    const rep=rnd(REPS);
+    const direction=rnd(DIRECTIONS);
+    const mode=rnd(MODES);
+    const vertical=rnd(VERTICALS);
+    const custType=Math.random()>.3?'Existing':'New';
+    const status=rnd(STATUSES);
+    // 1-3 doc formats
+    const numDocs=Math.random()<.55?1:Math.random()<.7?2:3;
+    const docTypesSample=[...DOC_TYPES].sort(()=>Math.random()-.5).slice(0,numDocs);
+    // always have primary; order: pdf first if present
+    docTypesSample.sort((a,b)=>(a==='pdf'?-1:b==='pdf'?1:0));
+    const cSlug=customer.split(' ')[0].toLowerCase();
+    const docs=docTypesSample.map(t=>({
+      type:t,
+      name:`${quoteNo}_${cSlug}.${t}`,
+      url:`#open-${quoteNo}-${t}`
+    }));
+    return{id:i+1,quoteNo,customer,custType,branch,rep,quoteDate:dateStr(qDate),effectiveDate:dateStr(effectiveDate),expiryDate:dateStr(expiryDate),direction,mode,vertical,status,docs,name:docs[0].name};
+  });
+}
+
+let data = genQuotes(120);
+let filtered = [...data];
+
+// ──────────────────────────────────────────────
+// FILTER POPULATION
+// ──────────────────────────────────────────────
+function populateFilters(){
+  const fields={
+    'f-customer':'customer','f-branch':'branch','f-rep':'rep',
+    'f-direction':'direction','f-mode':'mode','f-vertical':'vertical',
+    'f-custType':'custType','f-status':'status'
+  };
+  for(const[id,field] of Object.entries(fields)){
+    const sel=document.getElementById(id);
+    const vals=[...new Set(data.map(q=>q[field]))].sort();
+    vals.forEach(v=>{
+      const o=document.createElement('option');
+      o.value=v;o.textContent=v;
+      sel.appendChild(o);
+    });
+  }
+}
+
+// ──────────────────────────────────────────────
+// FILTER & SORT
+// ──────────────────────────────────────────────
+function applyFilters(){
+  const q=document.getElementById('search').value.toLowerCase().trim();
+  const fCustomer=document.getElementById('f-customer').value;
+  const fBranch=document.getElementById('f-branch').value;
+  const fRep=document.getElementById('f-rep').value;
+  const fDir=document.getElementById('f-direction').value;
+  const fMode=document.getElementById('f-mode').value;
+  const fVert=document.getElementById('f-vertical').value;
+  const fCust=document.getElementById('f-custType').value;
+  const fStat=document.getElementById('f-status').value;
+  const dQFrom=document.getElementById('d-quoteFrom').value;
+  const dQTo=document.getElementById('d-quoteTo').value;
+  const dEFrom=document.getElementById('d-expiryFrom').value;
+  const dETo=document.getElementById('d-expiryTo').value;
+  const sortCol=document.getElementById('sort-col').value;
+  const sortDir=document.getElementById('sort-dir').value;
+
+  filtered=data.filter(r=>{
+    if(q&&!(r.quoteNo.toLowerCase().includes(q)||r.customer.toLowerCase().includes(q)||r.name.toLowerCase().includes(q)))return false;
+    if(fCustomer&&r.customer!==fCustomer)return false;
+    if(fBranch&&r.branch!==fBranch)return false;
+    if(fRep&&r.rep!==fRep)return false;
+    if(fDir&&r.direction!==fDir)return false;
+    if(fMode&&r.mode!==fMode)return false;
+    if(fVert&&r.vertical!==fVert)return false;
+    if(fCust&&r.custType!==fCust)return false;
+    if(fStat&&r.status!==fStat)return false;
+    if(dQFrom&&r.quoteDate<dQFrom)return false;
+    if(dQTo&&r.quoteDate>dQTo)return false;
+    if(dEFrom&&r.expiryDate<dEFrom)return false;
+    if(dETo&&r.expiryDate>dETo)return false;
+    return true;
+  });
+
+  filtered.sort((a,b)=>{
+    const av=a[sortCol]||'',bv=b[sortCol]||'';
+    const cmp=av<bv?-1:av>bv?1:0;
+    return sortDir==='asc'?cmp:-cmp;
+  });
+
+  renderTable();
+}
+
+// ──────────────────────────────────────────────
+// RENDER
+// ──────────────────────────────────────────────
+function fileIconHTML(type){
+  const map={pdf:'PDF',xlsx:'XLS',docx:'DOC'};
+  const cls={pdf:'fi-pdf',xlsx:'fi-xlsx',docx:'fi-docx'};
+  return`<span class="file-icon ${cls[type]||''}">${map[type]||type.toUpperCase()}</span>`;
+}
+
+function repAbbr(name){
+  const p=name.split(' ');
+  return p.length>1?p[0]+' '+p[1][0]+'.':name;
+}
+
+function renderTable(){
+  const tbody=document.getElementById('table-body');
+  const noRes=document.getElementById('no-results');
+  const countEl=document.getElementById('result-count');
+
+  const total=data.length;
+  const shown=filtered.length;
+  countEl.innerHTML=`Showing <strong>${shown}</strong> of <strong>${total}</strong> quotes`;
+
+  if(!shown){
+    tbody.innerHTML='';
+    noRes.style.display='block';
+    return;
+  }
+  noRes.style.display='none';
+
+  tbody.innerHTML=filtered.map((r,idx)=>{
+    const primaryDoc=r.docs[0];
+    const hasMulti=r.docs.length>1;
+    const multiBadge=hasMulti?`<span class="multi-badge">${r.docs.length}</span>`:'';
+    const repStr=repAbbr(r.rep);
+    return`<tr onclick="openDetail(${r.id})" style="animation-delay:${Math.min(idx*15,200)}ms">
+      <td>
+        <div class="file-cell">
+          ${fileIconHTML(primaryDoc.type)}
+          <span class="file-name">${r.name}</span>
+          ${multiBadge}
+        </div>
+        <div class="qno" style="margin-top:2px">${r.quoteNo}</div>
+      </td>
+      <td title="${r.customer}">${r.customer}</td>
+      <td>${repStr}</td>
+      <td>${r.branch}</td>
+      <td>${r.direction}</td>
+      <td>${r.mode}</td>
+      <td>${fmtDate(r.quoteDate)}</td>
+      <td>${fmtDate(r.expiryDate)}</td>
+      <td><span class="status-badge s-${r.status}">${r.status}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ──────────────────────────────────────────────
+// CLEAR
+// ──────────────────────────────────────────────
+function clearAll(){
+  document.getElementById('search').value='';
+  ['f-customer','f-branch','f-rep','f-direction','f-mode','f-vertical','f-custType','f-status'].forEach(id=>document.getElementById(id).value='');
+  ['d-quoteFrom','d-quoteTo','d-expiryFrom','d-expiryTo'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('sort-col').value='quoteDate';
+  document.getElementById('sort-dir').value='desc';
+  applyFilters();
+}
+
+// ──────────────────────────────────────────────
+// DETAIL MODAL
+// ──────────────────────────────────────────────
+function openDetail(id){
+  const r=data.find(q=>q.id===id);
+  if(!r)return;
+  document.getElementById('d-title').textContent=r.quoteNo;
+  document.getElementById('d-sub').textContent=r.customer+' · '+r.branch+' · '+r.status;
+
+  // docs
+  document.getElementById('d-docs').innerHTML=r.docs.map(d=>`
+    <div class="doc-row">
+      ${fileIconHTML(d.type)}
+      <span class="doc-row-name">${d.name}</span>
+      <button class="btn-open" onclick="event.stopPropagation();handleOpen('${d.url}','${r.quoteNo}')">Open</button>
+    </div>`).join('');
+
+  // meta
+  const meta=[
+    ['Quote No',r.quoteNo],['Customer',r.customer],['Customer type',r.custType],
+    ['Branch',r.branch],['Sales rep',r.rep],['Direction',r.direction],
+    ['Mode',r.mode],['Vertical',r.vertical],['Status',`<span class="status-badge s-${r.status}">${r.status}</span>`],
+    ['Quote date',fmtDate(r.quoteDate)],['Effective date',fmtDate(r.effectiveDate)],['Expiry date',fmtDate(r.expiryDate)],
+  ];
+  document.getElementById('d-meta').innerHTML=meta.map(([k,v])=>`
+    <div class="meta-key">${k}</div><div class="meta-val">${v}</div>`).join('');
+
+  document.getElementById('detail-overlay').classList.add('open');
+}
+
+function closeDetail(){document.getElementById('detail-overlay').classList.remove('open')}
+function handleDetailOverlay(e){if(e.target===document.getElementById('detail-overlay'))closeDetail()}
+function handleOpen(url,qno){showToast(`Opening document for ${qno}…`)}
+
+// ──────────────────────────────────────────────
+// UPLOAD MODAL
+// ──────────────────────────────────────────────
+let uploadedFile=null;
+
+function openUpload(){document.getElementById('upload-overlay').classList.add('open')}
+function closeUpload(){
+  document.getElementById('upload-overlay').classList.remove('open');
+  resetUploadForm();
+}
+function handleUploadOverlay(e){if(e.target===document.getElementById('upload-overlay'))closeUpload()}
+
+function dzOver(e){e.preventDefault();document.getElementById('drop-zone').classList.add('over')}
+function dzLeave(){document.getElementById('drop-zone').classList.remove('over')}
+function dzDrop(e){
+  e.preventDefault();dzLeave();
+  const f=e.dataTransfer.files[0];if(f)setFile(f);
+}
+function fileSelected(e){const f=e.target.files[0];if(f)setFile(f)}
+
+const fileIconStyle={pdf:{label:'PDF',cls:'fi-pdf'},xlsx:{label:'XLS',cls:'fi-xlsx'},xls:{label:'XLS',cls:'fi-xlsx'},docx:{label:'DOC',cls:'fi-docx'},doc:{label:'DOC',cls:'fi-docx'}};
+function setFile(f){
+  uploadedFile=f;
+  const ext=f.name.split('.').pop().toLowerCase();
+  const style=fileIconStyle[ext]||{label:ext.toUpperCase(),cls:''};
+  const icon=document.getElementById('chip-icon');
+  icon.textContent=style.label;
+  icon.className=`chip-icon file-icon ${style.cls}`;
+  document.getElementById('chip-name').textContent=f.name;
+  document.getElementById('file-chip').style.display='flex';
+  document.getElementById('drop-zone').style.display='none';
+  clearErr('file');
+}
+function removeFile(){
+  uploadedFile=null;
+  document.getElementById('file-chip').style.display='none';
+  document.getElementById('drop-zone').style.display='block';
+  document.getElementById('file-input').value='';
+}
+
+const mandatoryFields=['quoteNo','customer','custType','status','branch','rep','direction','mode','quoteDate','expiryDate'];
+function clearErr(id){
+  if(id==='file'){document.getElementById('err-file').style.display='none';return}
+  const el=document.getElementById('ff-'+id);if(el)el.classList.remove('error');
+}
+
+function submitUpload(){
+  let ok=true;
+  if(!uploadedFile){document.getElementById('err-file').style.display='block';ok=false;}
+  mandatoryFields.forEach(id=>{
+    const el=document.getElementById('u-'+id);
+    const wrap=document.getElementById('ff-'+id);
+    if(!el||!wrap)return;
+    if(!el.value.trim()){wrap.classList.add('error');ok=false;}
+    else wrap.classList.remove('error');
+  });
+  if(!ok){document.getElementById('upload-modal').scrollTop=0;return}
+
+  // In production: POST /api/quotes/upload as multipart/form-data
+  // For prototype: add to local data and refresh
+  const quoteNo=document.getElementById('u-quoteNo').value.trim();
+  const ext=uploadedFile.name.split('.').pop().toLowerCase();
+  const newRec={
+    id:data.length+1,
+    quoteNo,
+    customer:document.getElementById('u-customer').value.trim(),
+    custType:document.getElementById('u-custType').value,
+    status:document.getElementById('u-status').value,
+    branch:document.getElementById('u-branch').value,
+    rep:document.getElementById('u-rep').value.trim(),
+    direction:document.getElementById('u-direction').value,
+    mode:document.getElementById('u-mode').value,
+    vertical:document.getElementById('u-vertical').value||'Other',
+    quoteDate:document.getElementById('u-quoteDate').value,
+    effectiveDate:document.getElementById('u-effectiveDate').value||'',
+    expiryDate:document.getElementById('u-expiryDate').value,
+    docs:[{type:ext,name:uploadedFile.name,url:`#uploaded-${quoteNo}`}],
+    name:uploadedFile.name
+  };
+  data.unshift(newRec);
+
+  // Refresh filter dropdowns to include new values
+  rebuildFilterOptions();
+  applyFilters();
+  closeUpload();
+  showToast(`Quote ${quoteNo} uploaded successfully`);
+}
+
+function rebuildFilterOptions(){
+  const fields={
+    'f-customer':'customer','f-branch':'branch','f-rep':'rep',
+    'f-direction':'direction','f-mode':'mode','f-vertical':'vertical',
+    'f-custType':'custType','f-status':'status'
+  };
+  for(const[id,field] of Object.entries(fields)){
+    const sel=document.getElementById(id);
+    const current=sel.value;
+    sel.innerHTML='<option value="">All</option>';
+    [...new Set(data.map(q=>q[field]))].sort().forEach(v=>{
+      const o=document.createElement('option');o.value=v;o.textContent=v;
+      if(v===current)o.selected=true;
+      sel.appendChild(o);
+    });
+  }
+}
+
+function resetUploadForm(){
+  removeFile();
+  mandatoryFields.forEach(id=>{
+    const el=document.getElementById('u-'+id);if(el)el.value='';
+    const w=document.getElementById('ff-'+id);if(w)w.classList.remove('error');
+  });
+  ['u-vertical','u-effectiveDate'].forEach(id=>{const el=document.getElementById(id);if(el)el.value=''});
+  document.getElementById('err-file').style.display='none';
+  document.getElementById('upload-modal').scrollTop=0;
+}
+
+// ──────────────────────────────────────────────
+// TOAST
+// ──────────────────────────────────────────────
+let toastTimer;
+function showToast(msg){
+  const t=document.getElementById('toast');
+  document.getElementById('toast-msg').textContent=msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>t.classList.remove('show'),3500);
+}
+
+// ──────────────────────────────────────────────
+// KEYBOARD
+// ──────────────────────────────────────────────
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){
+    closeDetail();
+    closeUpload();
+  }
+});
+document.getElementById('search').addEventListener('input',applyFilters);
+
+// ──────────────────────────────────────────────
+// INIT
+// ──────────────────────────────────────────────
+populateFilters();
+applyFilters();
+</script>
+</body>
+</html>
