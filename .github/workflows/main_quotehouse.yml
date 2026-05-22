@@ -57,5 +57,4 @@ jobs:
         with:
           app-name: 'quotehouse'
           slot-name: 'Production'
-          # Leave your original publish profile secret name here
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1234 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F436C6340D494CCD9AE236B563B2F0DA }}
