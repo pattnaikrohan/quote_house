@@ -10,6 +10,8 @@ import QuotePreviewDrawer from './components/QuotePreviewDrawer';
 import UploadModal from './components/UploadModal';
 import Toast from './components/Toast';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://quotehouse.azurewebsites.net';
+
 const DEFAULT_FILTERS = {
   q: '',
   customer: '',
@@ -63,7 +65,7 @@ export default function App() {
       params.append('sort_col', sortCol);
       params.append('sort_dir', sortDir);
       
-      const response = await fetch(`/api/quotes?${params.toString()}`);
+      const response = await fetch(`${API_BASE_URL}/api/quotes?${params.toString()}`);
       if (!response.ok) throw new Error('Failed to fetch quotes');
       const data = await response.json();
       
@@ -84,7 +86,7 @@ export default function App() {
   // Fetch dropdown list options dynamically from backend
   const fetchFilterOptions = async () => {
     try {
-      const response = await fetch('/api/quotes/filters');
+      const response = await fetch(`${API_BASE_URL}/api/quotes/filters`);
       if (!response.ok) throw new Error('Failed to fetch filter options');
       const data = await response.json();
       setFilterOptions(data);
@@ -127,7 +129,7 @@ export default function App() {
 
   const handleOpenDocument = (quoteId, docIdx) => {
     // Open direct API document url in a new browser tab
-    const url = `/api/quotes/${quoteId}/open/${docIdx}`;
+    const url = `${API_BASE_URL}/api/quotes/${quoteId}/open/${docIdx}`;
     window.open(url, '_blank');
     showToast('Opening secure document link...');
   };
@@ -135,7 +137,7 @@ export default function App() {
   const handleUploadSubmit = async (formData, callback) => {
     setIsUploading(true);
     try {
-      const response = await fetch('/api/quotes/upload', {
+      const response = await fetch(`${API_BASE_URL}/api/quotes/upload`, {
         method: 'POST',
         body: formData
       });

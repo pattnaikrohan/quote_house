@@ -14,10 +14,10 @@ logger = logging.getLogger("main")
 
 app = FastAPI(title="Quote House API", version="1.0.0")
 
-# CORS Middleware for local frontend connection
+# CORS Middleware for local and production frontend connection
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact origins
+    allow_origins=config.CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

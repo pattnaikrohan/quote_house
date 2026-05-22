@@ -26,5 +26,23 @@ HOST = "127.0.0.1"
 PORT = 8005
 SAS_EXPIRY_MINUTES = 15
 
+# URLs and CORS Configuration
+FRONTEND_URL = os.getenv("FRONTEND_URL", "https://brave-coast-0a8c9ec00.7.azurestaticapps.net")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://quotehouse.azurewebsites.net")
+
+# Parse allowed CORS origins from environment, or use default list
+env_origins = os.getenv("CORS_ORIGINS", "")
+if env_origins:
+    CORS_ORIGINS = [origin.strip() for origin in env_origins.split(",") if origin.strip()]
+else:
+    CORS_ORIGINS = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        FRONTEND_URL.rstrip("/"),
+    ]
+
+
 def is_azure_enabled() -> bool:
     return bool(AZURE_CONNECTION_STRING)
